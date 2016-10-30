@@ -18,9 +18,12 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  background: #ebeef1;
+  font: 18px/1.4 $helveticaNeue;
+  color: #3D3D3D;
+}
+header {
+	display: block;
 }
 
 .container {
@@ -31,8 +34,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
+  font-family: 'brandon grotesque regular';
+  color: #FF4500;
   font-weight: bold;
 
   line-height: 1.7;
@@ -69,11 +72,11 @@ p {
 }
 
 a {
-  color: $blue;
-  text-decoration: none;
+  color: #3d3d3d;
+  text-decoration: underline;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $black;
   }
 }
 
@@ -150,6 +153,41 @@ img {
 // .masthead
 //
 
+#nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 1em 0;
+	margin: 0;
+	padding: 0;}
+#nav ul {
+	display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+#nav li {
+	-webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    list-style: none
+}
+#nav li a {
+	display: block;
+    height: 2rem;
+    line-height: 0;
+    text-indent: -9999px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none
+}
+
+
+
+
+
+
+
 .wrapper-masthead {
   margin-bottom: 50px;
 }
@@ -181,7 +219,11 @@ img {
 
 .site-info {
   float: left;
-
+  background-color: red;
+  padding: 10px;
+  float: none;
+  display: block;
+  margin: 0 auto;
   @include mobile {
     float: none;
     display: block;
@@ -191,12 +233,17 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: #FF4500;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: 'brandon grotesque black';
   font-weight: 300;
-  font-size: 28px;
+  font-size: 85px;
   letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  @include mobile {
+	font-size: 62px;
+  }
 }
 
 .site-description {
