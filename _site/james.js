@@ -5,9 +5,9 @@ $( document ).ready(function() {
     
     if (x == 1) {
 	    //yellow
-	    document.getElementById('colour1').style.backgroundColor = '#FFFFE0';
+	    document.getElementById('colour1').style.backgroundColor = '#ebeef1';
 	    document.getElementById('colour2').style.backgroundColor = '#DAA520';
-	    document.getElementById('colour3').style.color = '#FFFFE0';
+	    document.getElementById('colour3').style.color = '#ebeef1';
 	    document.getElementById('colour4').style.color = '#F0E68C';
 	    document.getElementById('colour5').style.color = '#EEE8AA';
 	    document.getElementById('colour6').style.color = '#BDB76B';
@@ -26,9 +26,9 @@ $( document ).ready(function() {
 */
 	} else if (x == 2) {
 		//cyan
-	    document.getElementById('colour1').style.backgroundColor = '#E0FFFF';
+	    document.getElementById('colour1').style.backgroundColor = '#ebeef1';
 	    document.getElementById('colour2').style.backgroundColor = '#008B8B';
-	    document.getElementById('colour3').style.color = '#E0FFFF';
+	    document.getElementById('colour3').style.color = '#ebeef1';
 	    document.getElementById('colour4').style.color = '#008080';
 	    document.getElementById('colour5').style.color = '#008B8B';
 	    document.getElementById('colour6').style.color = '#00FFFF';
@@ -48,9 +48,9 @@ $( document ).ready(function() {
 
 	} else if (x == 3) {
 		//green
-	    document.getElementById('colour1').style.backgroundColor = '#98FB98';
+	    document.getElementById('colour1').style.backgroundColor = '#ebeef1';
 	    document.getElementById('colour2').style.backgroundColor = '#6B8E23';
-	    document.getElementById('colour3').style.color = '#98FB98';
+	    document.getElementById('colour3').style.color = '#ebeef1';
 	    document.getElementById('colour4').style.color = '#ADFF2F';
 	    document.getElementById('colour5').style.color = '#32CD32';
 	    document.getElementById('colour6').style.color = '#00FF7F';
@@ -71,9 +71,9 @@ $( document ).ready(function() {
 	    
 	} else if (x == 4) {
 		//#
-	    document.getElementById('colour1').style.backgroundColor = '#FFA07A';
+	    document.getElementById('colour1').style.backgroundColor = '#ebeef1';
 	    document.getElementById('colour2').style.backgroundColor = '#8B0000';
-	    document.getElementById('colour3').style.color = '#FFA07A';
+	    document.getElementById('colour3').style.color = '#ebeef1';
 	    document.getElementById('colour4').style.color = '#FF0000';
 	    document.getElementById('colour5').style.color = '#F08080';
 	    document.getElementById('colour6').style.color = '#E9967A';
@@ -92,9 +92,9 @@ $( document ).ready(function() {
 */
 	} else if (x == 5) {
 		//blue
-	    document.getElementById('colour1').style.backgroundColor = '#E0FFFF';
+	    document.getElementById('colour1').style.backgroundColor = '#ebeef1';
 	    document.getElementById('colour2').style.backgroundColor = '#00BFFF';
-	    document.getElementById('colour3').style.color = '#E0FFFF';
+	    document.getElementById('colour3').style.color = '#ebeef1';
 	    document.getElementById('colour4').style.color = '#00CED1';
 	    document.getElementById('colour5').style.color = '#87CEFA';
 	    document.getElementById('colour6').style.color = '#4682B4';
@@ -115,9 +115,9 @@ $( document ).ready(function() {
 */
 	} else if (x == 6) {
 		//purple
-	    document.getElementById('colour1').style.backgroundColor = '#E6E6FA';
+	    document.getElementById('colour1').style.backgroundColor = '#ebeef1';
 	    document.getElementById('colour2').style.backgroundColor = '#FF00FF';
-	    document.getElementById('colour3').style.color = '#E6E6FA';
+	    document.getElementById('colour3').style.color = '#ebeef1';
 	    document.getElementById('colour4').style.color = '#BA55D3';
 	    document.getElementById('colour5').style.color = '#800080';
 	    document.getElementById('colour6').style.color = '#8B008B';
@@ -138,9 +138,9 @@ $( document ).ready(function() {
 */
 	} else if (x == 7) {
 		//pink
-	    document.getElementById('colour1').style.backgroundColor = '#FFC0CB';
+	    document.getElementById('colour1').style.backgroundColor = '#ebeef1';
 	    document.getElementById('colour2').style.backgroundColor = '#C71585';
-	    document.getElementById('colour3').style.color = '#FFC0CB';
+	    document.getElementById('colour3').style.color = '#ebeef1';
 	    document.getElementById('colour4').style.color = '#FF69B4';
 	    document.getElementById('colour5').style.color = '#DB7093';
 	    document.getElementById('colour6').style.color = '#FFB6C1';
@@ -158,9 +158,9 @@ $( document ).ready(function() {
 */
 	} else if (x == 8) {
 		//orange
-	    document.getElementById('colour1').style.backgroundColor = '#FFA07A';
+	    document.getElementById('colour1').style.backgroundColor = '#ebeef1';
 	    document.getElementById('colour2').style.backgroundColor = '#FF6347';
-	    document.getElementById('colour3').style.color = '#FFA07A';
+	    document.getElementById('colour3').style.color = '#ebeef1';
 	    document.getElementById('colour4').style.color = '#FF7F50';
 	    document.getElementById('colour5').style.color = '#FF8C00';
 	    document.getElementById('colour6').style.color = '#FFA500';
@@ -178,9 +178,9 @@ $( document ).ready(function() {
 */
 	} else if (x == 9) {
 		//grey
-	    document.getElementById('colour1').style.backgroundColor = '#DCDCDC';
+	    document.getElementById('colour1').style.backgroundColor = '#ebeef1';
 	    document.getElementById('colour2').style.backgroundColor = '#708090';
-	    document.getElementById('colour3').style.color = '#DCDCDC';
+	    document.getElementById('colour3').style.color = '#ebeef1';
 	    document.getElementById('colour4').style.color = '#808080';
 	    document.getElementById('colour5').style.color = '#696969';
 	    document.getElementById('colour6').style.color = '#2F4F4F';
@@ -200,9 +200,9 @@ $( document ).ready(function() {
 */
 	} else {
 		//brown
-	    document.getElementById('colour1').style.backgroundColor = '#A52A2A';
+	    document.getElementById('colour1').style.backgroundColor = '#ebeef1';
 	    document.getElementById('colour2').style.backgroundColor = '#BC8F8F';
-	    document.getElementById('colour3').style.color = '#A52A2A';
+	    document.getElementById('colour3').style.color = '#ebeef1';
 	    document.getElementById('colour4').style.color = '#8B4513';
 	    document.getElementById('colour5').style.color = '#D2691E';
 	    document.getElementById('colour6').style.color = '#F4A460';

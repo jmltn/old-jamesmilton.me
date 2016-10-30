@@ -275,7 +275,7 @@ img {
   margin: 0;
   color: #FF4500;
   cursor: pointer;
-  font-family: 'brandon grotesque black';
+  font-family: 'brandon grotesque blk';
   font-weight: 300;
   font-size: 85px;
   letter-spacing: 1px;
@@ -371,6 +371,11 @@ footer {
 @font-face {
   font-family: brandon grotesque regular;
   src: url("/fonts/Brandon Grotesque/Brandon_reg.otf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: brandon grotesque blk;
+  src: url("/fonts/Brandon Grotesque/Brandon_blk.otf");
   font-weight: normal;
 }
 .highlight {
