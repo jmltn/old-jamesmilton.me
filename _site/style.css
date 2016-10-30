@@ -365,6 +365,14 @@ footer {
   text-align: center;
 }
 
+/*********************/
+/* fonts */
+/*********************/
+@font-face {
+  font-family: brandon grotesque regular;
+  src: url("/fonts/Brandon Grotesque/Brandon_reg.otf");
+  font-weight: normal;
+}
 .highlight {
   background-color: #efefef;
   padding: 7px 7px 7px 10px;

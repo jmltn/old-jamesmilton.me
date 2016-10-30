@@ -329,6 +329,17 @@ footer {
   text-align: center;
 }
 
+/*********************/
+/* fonts */
+/*********************/
+
+@font-face {
+    font-family: brandon grotesque regular;
+    src: url('/fonts/Brandon Grotesque/Brandon_reg.otf');
+    font-weight: normal;
+}
+
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
