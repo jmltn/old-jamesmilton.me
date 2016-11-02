@@ -8,7 +8,7 @@
 	<!-- Basic Page Needs
   ================================================== -->
   <meta charset="utf-8">
-  <title>James B. Milton, Designer & Developer – James Milton – Designer & Developer</title>
+  <title>James Milton – Designer & Developer</title>
       <meta charset="utf-8" />
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -20,9 +20,6 @@
     
     <meta name="author" content="James Milton" />
 
-    
-    <meta property="og:title" content="James B. Milton, Designer & Developer" />
-    <meta property="twitter:title" content="James B. Milton, Designer & Developer" />
     
 
 
@@ -87,32 +84,124 @@
     </div>
 
     <div id="main" role="main" class="container">
-      <!--
-[http://www.jamesmilton.me/refineddesign](http://www.jamesmilton.me/refineddesign)
-[http://www.jamesmilton.me/jeff](http://www.jamesmilton.me/jeff)
-[http://www.celestejones.co.uk](http://www.celestejones.co.uk)
-[http://www.louisa.gallery](http://www.louisa.gallery)
--->
+      <style>
+
+
+.box {
+	border-radius: 3px;
+	background: rgba(101, 101, 101, 0.7); margin: auto; padding: 12px;
+}
+
+.lightbox {
+	zoom: 1.5;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	margin: auto;
 	
-<p class="colourPara1">
-	Refined design
-    <a target="_blank" href="http://http://www.jamesmilton.me/refineddesign" class="colourLink">http://www.jamesmilton.me/refineddesign</a>.
-</p>
+}
 
-<p class="colourPara1">
-	Celeste Jones's Blog
-    <a target="_blank" href="http://www.celestejones.co.uk" class="colourLink">http://www.celestejones.co.uk</a>.
-</p>
+div.horizontal {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+}
 
-<p class="colourPara1">
-	Louisa Milton's Art Portfolio
-    <a target="_blank" href="http://www.louisa.gallery" class="colourLink">http://www.louisa.gallery</a>.
-</p>
+div.vertical {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
 
-<p class="colourPara1">
-	Jeff the Dog
-    <a target="_blank" href="http://www.jamesmilton.me/jeff" class="colourLink">http://www.jamesmilton.me/jeff</a>.
-</p>
+::-webkit-input-placeholder {
+   color: black;
+   text-align: center;
+}
+
+::-moz-placeholder {  
+   color: black;
+   text-align: center;
+}
+
+:-ms-input-placeholder {  
+   color: black;
+   text-align: center;
+}
+
+</style>
+
+<body>
+	
+	<div id="loginbox" class="lightbox" >
+		<div class="horizontal">
+			<div class="vertical">
+				<div class="box">				
+					<input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="Password" /> <br />
+					<button id="loginbutton" type="button">Enter</button>
+					<p id="wrongPassword" style="display: none">Wrong Password</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	
+	 
+
+	
+
+	<script type="text/javascript">
+	"use strict";
+
+
+	function loadPage(pwd) {
+		
+		var hash= pwd;
+		hash= Sha1.hash(pwd);
+		var url= hash + "/index.html";
+			
+		$.ajax({
+			url : url,
+			dataType : "html",
+			success : function(data) {
+
+				window.location= url;
+
+			},
+			error : function(xhr, ajaxOptions, thrownError) {
+			
+
+				parent.location.hash= hash;
+
+				//$("#wrongPassword").show();
+				$("#password").attr("placeholder","wrong password");
+				$("#password").val("");
+			}
+		});
+	}
+
+	 
+	$("#loginbutton").on("click", function() {
+		loadPage($("#password").val());
+	});
+	$("#password").keypress(function(e) {
+		if (e.which == 13) {
+			
+			loadPage($("#password").val());
+		}
+	});
+	$("#password").focus();
+		
+	</script>
+
+</body>
+</html>
+
     </div>
 
     
@@ -125,8 +214,8 @@
 
 		ga('create', 'UA-47742897-8', 'auto');
 		ga('send', 'pageview', {
-		  'page': '/portfolio/',
-		  'title': 'James B. Milton, Designer & Developer'
+		  'page': '/james/',
+		  'title': ''
 		});
 	</script>
 	<!-- End Google Analytics -->

@@ -8,8 +8,22 @@
 	<!-- Basic Page Needs
   ================================================== -->
   <meta charset="utf-8">
-  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-  {% include meta.html %}
+  <title>James B. Milton, Designer & Developer – James Milton – Designer & Developer</title>
+      <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Designer & Developer">
+    <meta property="og:description" content="Designer & Developer" />
+    
+    <meta name="author" content="James Milton" />
+
+    
+    <meta property="og:title" content="James B. Milton, Designer & Developer" />
+    <meta property="twitter:title" content="James B. Milton, Designer & Developer" />
+    
 
 
 	<!-- Mobile Specific Metas
@@ -27,8 +41,8 @@
 	<!-- CSS
   ================================================== -->
 
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="alternate" type="application/rss+xml" title="James Milton - Designer & Developer" href="/feed.xml" />
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
 
   <!--[if lt IE 9]>
@@ -73,9 +87,26 @@
     </div>
 
     <div id="main" role="main" class="container">
-      {{ content }}
+      <p class="colourPara1">James' Area</p>
+
     </div>
 
-    {% include analytics.html %}
+    
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-47742897-8', 'auto');
+		ga('send', 'pageview', {
+		  'page': '/james/18032487eb92b1eba24f5858d35902ab2da46eaf/',
+		  'title': 'James B. Milton, Designer & Developer'
+		});
+	</script>
+	<!-- End Google Analytics -->
+
+
   </body>
 </html>
