@@ -30,9 +30,9 @@
   
   	<!-- JS
   ================================================== -->
-  <script src="/jquery-1.8.0.min.js"></script>
-  <script src="/james.js"></script>
-  <script type="text/javascript" src="/sha1.js"></script>
+  <script src="/javascript/jquery-1.8.0.min.js"></script>
+  <script src="/javascript/james.js"></script>
+  <script type="text/javascript" src="/javascript/sha1.js"></script>
 
 
 	<!-- CSS
@@ -140,7 +140,7 @@ div.vertical {
 		<div class="horizontal">
 			<div class="vertical">
 				<div class="box">				
-					<input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="Password" /> <br />
+					<input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'" /> <br />
 					<button id="loginbutton" type="button">Enter</button>
 					<p id="wrongPassword" style="display: none">Wrong Password</p>
 				</div>
