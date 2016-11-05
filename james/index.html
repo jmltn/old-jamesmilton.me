@@ -58,17 +58,20 @@ div.vertical {
 	<div id="loginbox" class="lightbox" >
 		<div class="horizontal">
 			<div class="vertical">
-				<div class="box">				
-					<input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'" /> <br />
-					<button id="loginbutton" type="button">Enter</button>
-					<p id="wrongPassword" style="display: none">Wrong Password</p>
+				<div class="box">	
+					<form class="pure-form pure-form-stacked">
+						<fieldset>
+							<input id="password" type="password" placeholder="Password" style="margin: auto; margin-bottom: 10px;">
+							<button id="loginbutton" type="button" class="pure-button pure-button">Enter</button>
+							<p id="wrongPassword" style="display: none">Wrong Password</p>
+						</fieldset>
+					</form>
 				</div>
 			</div>
 		</div>
 	</div>
-
-
-
+	
+	
 	
 	 
 

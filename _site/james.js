@@ -1,6 +1,4 @@
 $(document).ready(function() {
-	
-    var x = Math.floor((Math.random() * 2) + 1);
     
     
     if (x == 1) {
@@ -38,5 +36,11 @@ $(document).ready(function() {
 
 
 	} 
+	
+	
+
+	
+
 });
+
 
