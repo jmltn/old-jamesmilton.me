@@ -33,14 +33,14 @@
   
   	<!-- JS
   ================================================== -->
-  <script src="/javascript/jquery-1.8.0.min.js"></script>
-  <script src="/javascript/james.js"></script>
-  <script type="text/javascript" src="/javascript/sha1.js"></script>
+  <script src="/jquery-1.8.0.min.js"></script>
+  <script src="/james.js"></script>
+  <script type="text/javascript" src="/sha1.js"></script>
 
 
 	<!-- CSS
   ================================================== -->
-  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+
   <link rel="stylesheet" type="text/css" href="/style.css" />
   <link rel="alternate" type="application/rss+xml" title="James Milton - Designer & Developer" href="/feed.xml" />
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
@@ -80,41 +80,129 @@
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-        	<h1><a href="/" class="site-name">James B. Milton, Developer & Designer</a></h1>
+        	<a href="/" class="site-name" id="colourHeader">James B. Milton, Developer & Designer</a>
         	<i><p class="colourPara1">Website is a work in progress</p></i>
         </header>
       </div>
     </div>
 
     <div id="main" role="main" class="container">
-      <div class="posts">
-  
+      <p class="colourPara1">James' Area</p>
 
-  <article class="post">
+<script>
+(function(w,d,s,g,js,fs){
+  g=w.gapi||(w.gapi={});g.analytics={q:[],ready:function(f){this.q.push(f);}};
+  js=d.createElement(s);fs=d.getElementsByTagName(s)[0];
+  js.src='http://apis.google.com/js/platform.js';
+  fs.parentNode.insertBefore(js,fs);js.onload=function(){g.load('analytics');};
+}(window,document,'script'));
+</script>
 
-  <p class="colourPara1">You're up and running!</p>
+<div id="embed-api-auth-container"></div>
+<div id="chart-1-container"></div>
+<div id="chart-2-container"></div>
+<div id="view-selector-1-container"></div>
+<div id="view-selector-2-container"></div>
 
-  <div class="entry"><p>Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).</p>
+<script>
 
-</div>
-  <a href="/Hello-You/" class="colourLink">Read More</a>.
-  </article>
+gapi.analytics.ready(function() {
 
-  
+  /**
+   * Authorize the user immediately if the user has already granted access.
+   * If no access has been created, render an authorize button inside the
+   * element with the ID "embed-api-auth-container".
+   */
+  gapi.analytics.auth.authorize({
+    container: 'embed-api-auth-container',
+    clientid: '348783081824-j81f8ngcfil3fo8dve5quabfdhfmvjju.apps.googleusercontent.com'
+  });
 
-  <article class="post">
 
-  <p class="colourPara1">You're up and walking!</p>
+  /**
+   * Create a ViewSelector for the first view to be rendered inside of an
+   * element with the id "view-selector-1-container".
+   */
+  var viewSelector1 = new gapi.analytics.ViewSelector({
+    container: 'view-selector-1-container'
+  });
 
-  <div class="entry"><p>Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).</p>
+  /**
+   * Create a ViewSelector for the second view to be rendered inside of an
+   * element with the id "view-selector-2-container".
+   */
+  var viewSelector2 = new gapi.analytics.ViewSelector({
+    container: 'view-selector-2-container'
+  });
 
-</div>
-  <a href="/Hello-World/" class="colourLink">Read More</a>.
-  </article>
+  // Render both view selectors to the page.
+  viewSelector1.execute();
+  viewSelector2.execute();
 
-  
-</div>
 
+  /**
+   * Create the first DataChart for top countries over the past 30 days.
+   * It will be rendered inside an element with the id "chart-1-container".
+   */
+  var dataChart1 = new gapi.analytics.googleCharts.DataChart({
+    query: {
+      metrics: 'ga:sessions',
+      dimensions: 'ga:country',
+      'start-date': '30daysAgo',
+      'end-date': 'yesterday',
+      'max-results': 6,
+      sort: '-ga:sessions'
+    },
+    chart: {
+      container: 'chart-1-container',
+      type: 'PIE',
+      options: {
+        width: '100%',
+        pieHole: 4/9
+      }
+    }
+  });
+
+
+  /**
+   * Create the second DataChart for top countries over the past 30 days.
+   * It will be rendered inside an element with the id "chart-2-container".
+   */
+  var dataChart2 = new gapi.analytics.googleCharts.DataChart({
+    query: {
+      metrics: 'ga:sessions',
+      dimensions: 'ga:country',
+      'start-date': '30daysAgo',
+      'end-date': 'yesterday',
+      'max-results': 6,
+      sort: '-ga:sessions'
+    },
+    chart: {
+      container: 'chart-2-container',
+      type: 'PIE',
+      options: {
+        width: '100%',
+        pieHole: 4/9
+      }
+    }
+  });
+
+  /**
+   * Update the first dataChart when the first view selecter is changed.
+   */
+  viewSelector1.on('change', function(ids) {
+    dataChart1.set({query: {ids: ids}}).execute();
+  });
+
+  /**
+   * Update the second dataChart when the second view selecter is changed.
+   */
+  viewSelector2.on('change', function(ids) {
+    dataChart2.set({query: {ids: ids}}).execute();
+  });
+
+});
+</script>
     </div>
 
     
@@ -127,7 +215,7 @@
 
 		ga('create', 'UA-47742897-8', 'auto');
 		ga('send', 'pageview', {
-		  'page': '/blog/',
+		  'page': '/james/18032487eb92b1eba24f5858d35902ab2da46eaf/',
 		  'title': 'James B. Milton, Designer & Developer'
 		});
 	</script>

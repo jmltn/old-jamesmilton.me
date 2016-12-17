@@ -33,14 +33,14 @@
   
   	<!-- JS
   ================================================== -->
-  <script src="/javascript/jquery-1.8.0.min.js"></script>
-  <script src="/javascript/james.js"></script>
-  <script type="text/javascript" src="/javascript/sha1.js"></script>
+  <script src="/jquery-1.8.0.min.js"></script>
+  <script src="/james.js"></script>
+  <script type="text/javascript" src="/sha1.js"></script>
 
 
 	<!-- CSS
   ================================================== -->
-  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+
   <link rel="stylesheet" type="text/css" href="/style.css" />
   <link rel="alternate" type="application/rss+xml" title="James Milton - Designer & Developer" href="/feed.xml" />
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
@@ -80,41 +80,39 @@
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-        	<h1><a href="/" class="site-name">James B. Milton, Developer & Designer</a></h1>
+        	<a href="/" class="site-name" id="colourHeader">James B. Milton, Developer & Designer</a>
         	<i><p class="colourPara1">Website is a work in progress</p></i>
         </header>
       </div>
     </div>
 
     <div id="main" role="main" class="container">
-      <div class="posts">
-  
+      <!--
+[http://www.jamesmilton.me/refineddesign](http://www.jamesmilton.me/refineddesign)
+[http://www.jamesmilton.me/jeff](http://www.jamesmilton.me/jeff)
+[http://www.celestejones.co.uk](http://www.celestejones.co.uk)
+[http://www.louisa.gallery](http://www.louisa.gallery)
+-->
+	
+<p class="colourPara1">
+	Refined design
+    <a target="_blank" href="http://jamesmilton.me/refineddesign" class="colourLink">http://jamesmilton.me/refineddesign</a>.
+</p>
 
-  <article class="post">
+<p class="colourPara1">
+	Celeste Jones's Blog
+    <a target="_blank" href="http://celestejones.co.uk" class="colourLink">http://celestejones.co.uk</a>.
+</p>
 
-  <p class="colourPara1">You're up and running!</p>
+<p class="colourPara1">
+	Louisa Milton's Art Portfolio
+    <a target="_blank" href="http://louisa.gallery" class="colourLink">http://louisa.gallery</a>.
+</p>
 
-  <div class="entry"><p>Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).</p>
-
-</div>
-  <a href="/Hello-You/" class="colourLink">Read More</a>.
-  </article>
-
-  
-
-  <article class="post">
-
-  <p class="colourPara1">You're up and walking!</p>
-
-  <div class="entry"><p>Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).</p>
-
-</div>
-  <a href="/Hello-World/" class="colourLink">Read More</a>.
-  </article>
-
-  
-</div>
-
+<p class="colourPara1">
+	Jeff the Dog
+    <a target="_blank" href="http://jamesmilton.me/jeff" class="colourLink">http://jamesmilton.me/jeff</a>.
+</p>
     </div>
 
     
@@ -127,7 +125,7 @@
 
 		ga('create', 'UA-47742897-8', 'auto');
 		ga('send', 'pageview', {
-		  'page': '/blog/',
+		  'page': '/portfolio/',
 		  'title': 'James B. Milton, Designer & Developer'
 		});
 	</script>
