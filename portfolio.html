@@ -1,0 +1,21 @@
+---
+layout: default
+permalink: /portfolio/
+title: Portfolio
+---
+
+<p>kinda still working on this... </p>
+
+
+<div class="row">
+  	{% for post in site.posts %}
+  		
+	  	<div class="four columns postBox">
+			<a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}{{ post.image }}"/></a>
+			<a class="postTitle" href="{{ site.baseurl }}{{ post.url }}"><h6>{{ post.title }}</h6></a>
+			
+	  	</div>
+  		
+	{% endfor %}
+</div>
+

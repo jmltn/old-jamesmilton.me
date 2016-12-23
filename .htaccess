@@ -1,0 +1,4 @@
+AuthType Basic  
+AuthName "restricted area"  
+AuthUserFile /jamesmilton.me/refineddesign/.htpasswd  
+require valid-user
