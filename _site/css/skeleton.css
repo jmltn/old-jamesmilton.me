@@ -439,22 +439,7 @@ there.
   color: #FF69B4;
   background: white;
 }
-
-
-
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-
 /* Home */
-
 .myPicture1, .myPicture2{
 	background: url("/images/me.JPG") 50% 50% no-repeat; ; /* 50% 50% centers image in div */
 	width: 500px;
@@ -462,7 +447,7 @@ there.
 	background-size:cover;
 }
 @media (max-width: 1000px) {
-	.myPicture1{
+	.myPicture1, .myPicture2{
 	    width: 100%;
 	    height: 50%;
 	    
@@ -507,6 +492,13 @@ there.
 	width: 500px;
 	float: right;
 	text-align: right;
+	padding: 0 20px 20px 20px;
+	box-sizing:border-box;
+}
+@media (max-width: 1000px) {
+	.myText2{
+		width: 100%
+	}
 }
 
 
@@ -514,16 +506,8 @@ there.
     width: 1000px;
     height: 500px;
 	background-color: red;
-	margin-left: auto;
-    margin-right: auto; 
+	margin: 0 auto;
     
-}
-@media (max-width: 1000px) {
-	#mainSquare1{
-	    width: 80%;
-	    height: 80%;
-	    max-width: 500px;
-	}
 }
 #mainSquare2{
     width: 800px;
@@ -533,11 +517,18 @@ there.
     display:none;
 }
 @media (max-width: 1000px) {
-	#mainSquare2{
-	    width: 500px;
-	    height: 1000px;
+	#mainSquare1, #mainSquare2{
+	    max-width: 500px;
+	    width: 85%;
+	    height: 85%;
+	    overflow: auto;
 	}
 }
+
+
+
+
+
 
 .wrapSquare{
   display: table-cell;
