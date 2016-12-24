@@ -460,11 +460,17 @@ there.
 /* Home */
 
 .myPicture1, .myPicture2{
-	background: url("{{ site.baseurl }}/images/me.JPG") 50% 50% no-repeat; /* 50% 50% centers image in div */
+	background: url("{{ site.baseurl }}/images/me.JPG") 50% 50% no-repeat; ; /* 50% 50% centers image in div */
 	width: 500px;
-	height: 500px;
-	background-size: cover; 
-	background-position: 50%;
+	height: 100%;
+	background-size:cover;
+}
+@media (max-width: 1000px) {
+	.myPicture1{
+	    width: 100%;
+	    height: 50%;
+	    
+	}
 }
 @media (min-width: 1000px) {
 	.myPicture2{
@@ -483,16 +489,22 @@ there.
 }
 
 .myText1{
+	box-sizing:border-box;
 	font-size: 15px;
 	width: 500px;
 	float: left;
 	overflow: auto;
-	
-}
-
-.myText1 p{
 	padding: 20px;
 }
+@media (max-width: 1000px) {
+	.myText1{
+		width: 100%
+	}
+}
+
+
+
+
 
 .myText2 {
 	font-size: 15px;
@@ -512,8 +524,9 @@ there.
 }
 @media (max-width: 1000px) {
 	#mainSquare1{
-	    width: 500px;
-	    height: 1000px;
+	    width: 80%;
+	    height: 80%;
+	    max-width: 500px;
 	}
 }
 #mainSquare2{
@@ -548,6 +561,26 @@ there.
 		display: none;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Default styling */
