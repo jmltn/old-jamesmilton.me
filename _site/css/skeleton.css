@@ -664,19 +664,23 @@ animation:smile 0.5s infinite;
 
 
 
-.postBox{
-	overflow: hidden;
-	margin: 10px;
-}
 
-.postBox img{
-	max-width:100%;
-}
 
-.postTitle{
-	text-decoration: none;
-	text-align: center;
+
+.card {
+  border-top: black solid 8px;
+  width: 160px; 
+  overflow: hidden;
 }
+.card img{
+	margin-top: 5px;
+	max-width:95%;
+}
+.cards {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  text-align: center;}
 
 .postContent img{
 	max-width: 80%;
