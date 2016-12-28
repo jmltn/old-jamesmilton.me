@@ -675,7 +675,7 @@ animation:smile 0.5s infinite;
 
 .card {
   border-top: black solid 8px;
-  width: 160px; 
+  width: 300px; 
 }
 
 .card:hover{
