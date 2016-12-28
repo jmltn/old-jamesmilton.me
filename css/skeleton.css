@@ -541,13 +541,15 @@ there.
 
 
 
+#smileContainer{
+	text-align: center;
+}
 #smile{
 	text-decoration: none;
 	margin-top: 30px;
 	font-size: 50px;
-	text-align: center;
-}
-
+} 
+	
 #smile:hover {
 -webkit-animation:smile 0.5s infinite;
 -ms-animation:smile 0.5s infinite;
@@ -675,24 +677,45 @@ animation:smile 0.5s infinite;
   border-top: black solid 8px;
   width: 160px; 
 }
+
+.card:hover{
+  border-top: #cdcdcd solid 8px;
+}
+
+@media (max-width: 1000px) {
+	.card{
+		width: 90%; 
+	}
+}
+
+
 .card img{
 	margin-top: 5px;
 	max-width:95%;
 }
+
 .cards {
   width: 100%;
-  max-width: 1040px;
+  max-width: 960px;
   margin: 0 auto;
   text-align: center;
  }
+ 
+
 
 .postContent img{
-	max-width: 80%;
+	max-width: 400px;
 	margin-left: auto;
     margin-right: auto;
     text-align: center;
     display: table-cell;
-    vertical-align: middle
-	
+    vertical-align: middle	
 }
+@media (max-width: 1000px) {
+	.postContent img{
+		max-width: 80%; 
+	}
+}
+
+
 

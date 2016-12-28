@@ -4,13 +4,13 @@ permalink: /portfolio/
 title: Portfolio
 ---
 
-<p>kinda still working on this... </p>
-
 <div class="cards">
 	{% for post in site.posts %}
+		<a href="{{ site.baseurl }}{{ post.url }}">
 	  	<div class="card">
-			<a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}{{ post.image }}"/></a>
-			<a class="postTitle" href="{{ site.baseurl }}{{ post.url }}"><h6>{{ post.title }}</h6></a>
+			<img src="{{ site.baseurl }}{{ post.image }}"/>
+			<h6 class="postTitle" >{{ post.title }}</h6>
 	  	</div>
+		</a>
 	{% endfor %}
 </div>

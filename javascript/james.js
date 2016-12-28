@@ -37,19 +37,24 @@ $(document).ready(function(){
     
     
 });
+
+
+
 function getPos(e) {
-	x = e.clientX;
-	y = e.clientY;
-	midX = window.innerWidth/2
-	midY = window.innerHeight/2
-	deg = 2;
-	degX = ((x/midX)*deg)-deg;
-	degY = (((y/midY)*deg)-deg)*-1;
-	var table1 = document.querySelector("#mainSquare1");	    
-	table1.style.transform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
-	
-	var table2 = document.querySelector("#mainSquare2");	    
-	table2.style.transform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
+	if ($(window).width() > 1000) {
+		x = e.clientX;
+		y = e.clientY;
+		midX = window.innerWidth/2
+		midY = window.innerHeight/2
+		deg = 2;
+		degX = ((x/midX)*deg)-deg;
+		degY = (((y/midY)*deg)-deg)*-1;
+		var table1 = document.querySelector("#mainSquare1");	    
+		table1.style.transform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
+		
+		var table2 = document.querySelector("#mainSquare2");	    
+		table2.style.transform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
+	}
 }
 
 
