@@ -2,7 +2,7 @@
 
 # Hello
 
-You wanna look at my [website](http://jamesmilton.me) hey? 
+You wanna look at my [website](http://jamesmilton.me), hey? 
 
 ## jamesmilton.me
 
