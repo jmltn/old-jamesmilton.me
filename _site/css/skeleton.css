@@ -670,7 +670,6 @@ animation:smile 0.5s infinite;
 .card {
   border-top: black solid 8px;
   width: 160px; 
-  overflow: hidden;
 }
 .card img{
 	margin-top: 5px;
@@ -680,7 +679,8 @@ animation:smile 0.5s infinite;
   width: 100%;
   max-width: 1040px;
   margin: 0 auto;
-  text-align: center;}
+  text-align: center;
+ }
 
 .postContent img{
 	max-width: 80%;

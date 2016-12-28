@@ -1,4 +1,6 @@
 $(document).ready(function(){
+	
+	
 	$("#smile").click(function(){
         $(".toggle").toggle("slow");
     });
@@ -115,8 +117,9 @@ function getPos(e) {
   function update() {
     grid.mount();
   }
-
   document.addEventListener('DOMContentLoaded', init);
   window.addEventListener('resize', update);
+  window.addEventListener('load', update);
+  
 })();
 
