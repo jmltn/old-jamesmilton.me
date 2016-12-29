@@ -10,3 +10,4 @@ In 2013 my family and I embarked on a road trip across the USA.I created this bl
 
 [Visit the site](../jamesinamerica/){:target="_blank"}.
 
+During the time of [this blog post](../jamesinamerica/blog/heart-of-america.html){:target="_blank"}, we were in the state of Iowa and my sister and I were asked to be interviewed live on 6pm Channel 13 News at the Iowa State Fair. During the interview, I told the viewers to check out my blog. If you look down at the comments, I got some great responses. From that point on, my blog was getting hundred's of views day.

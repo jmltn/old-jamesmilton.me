@@ -679,7 +679,8 @@ animation:smile 0.5s infinite;
 }
 
 .card:hover{
-  border-top: #cdcdcd solid 8px;
+  color: #818181;
+  border-top: #818181 solid 8px;
 }
 
 @media (max-width: 1000px) {
@@ -704,13 +705,18 @@ animation:smile 0.5s infinite;
 
 
 .postContent img{
-	max-width: 400px;
+	max-width: 500px;
 	margin-left: auto;
     margin-right: auto;
     text-align: center;
     display: table-cell;
     vertical-align: middle	
 }
+
+
+
+
+
 @media (max-width: 1000px) {
 	.postContent img{
 		max-width: 80%; 
