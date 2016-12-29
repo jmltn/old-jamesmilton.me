@@ -4,11 +4,11 @@ title: RaspberryRev Outcome
 image: /images/raspberry-rev/Lego Holes 2-min.jpg
 ---
 
+*The content below show the vague process of how the car was developed. If you want to know more about this project, checkout the embedded pdf below of my project submission.*
+
 Going back to my Product Design A-Level, I wanted to make a iPhone controlled remote controlled car which could be built with Lego. 
 
 I designed and made a chassis which holds the Raspberry Pi, motor controller unit, rechargeable battery for Raspberry Pi, and 9v battery for motors. As well as this, on the underside of the chassis is lego surface, which allows you to stick lego items onto the underside.
-
-#### The content below show the vague process of how the car was developed. If you want to know more about this project, checkout the embedded pdf below of my project submission.
 
 ![]({{ site.baseurl }}/images/raspberry-rev/Lego Holes 2-min.jpg)
 
@@ -59,7 +59,8 @@ import RPi.GPIO as GPIO
 import time
 
 #A routine to control a pair of pins
-def ControlAPairOfPins(FirstPin,FirstState,SecondPin,SecondState):
+def ControlAPairOfPins(FirstPin,
+  FirstState,SecondPin,SecondState):
   print "Controlling them pins"
   if FirstState == "1":
     GPIO.output(int(FirstPin),True)
