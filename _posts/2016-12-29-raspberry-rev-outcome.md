@@ -4,11 +4,11 @@ title: RaspberryRev Outcome
 image: /images/raspberry-rev/Lego Holes 2-min.jpg
 ---
 
-*The content below show the vague process of how the car was developed. If you want to know more about this project, checkout the embedded pdf below of my project submission.*
+*The content below briefly shows the process of how the car was developed. If you want to know more about this project, checkout the embedded pdf below of my project submission.*
 
 Going back to my Product Design A-Level, I wanted to make a iPhone controlled remote controlled car which could be built with Lego. 
 
-I designed and made a chassis which holds the Raspberry Pi, motor controller unit, rechargeable battery for Raspberry Pi, and 9v battery for motors. As well as this, on the underside of the chassis is lego surface, which allows you to stick lego items onto the underside.
+I designed and made a chassis which holds the Raspberry Pi, motor controller unit, rechargeable battery for Raspberry Pi, and 9v battery for motors. As well as this, on the underside of the chassis is lego surface, which allows you to stick lego accessories onto the underside.
 
 ![]({{ site.baseurl }}/images/raspberry-rev/Lego Holes 2-min.jpg)
 
@@ -114,7 +114,7 @@ while True:
 
 
 
-*Please note that this pdf was converted from a PowerPoint presentation. Because of this, embeded videos which were once on the PowerPoint are not present on this pdf.*
+*Please note that this pdf was converted from a PowerPoint presentation. Because of this, embedded videos which were once on the PowerPoint are not present on this pdf.*
 
 <iframe src="https://docs.google.com/viewer?srcid=0BxnFEsoXA64PY004UkdzOFNuRjA&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="700"></iframe>
 
@@ -122,4 +122,4 @@ while True:
 I also created a website which is an online instruction manual on how to assemble the lego parts. It can be found at [jamesmilton.me/raspberryrev/]({{ site.baseurl }}/raspberryrev/).
 
 
-If you're interested  in seeing how I designed the licence plate logo, visit [this post]({{ site.baseurl }}/raspberry-rev-design/).
+If you're interested in seeing how I designed the licence plate logo, visit [this post]({{ site.baseurl }}/raspberry-rev-design/).
