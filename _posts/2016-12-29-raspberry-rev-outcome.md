@@ -88,25 +88,32 @@ GPIO.setup(19,GPIO.OUT)
 GPIO.setup(21,GPIO.OUT)
 
 while True:
-  MyChar = raw_input("Press a character:")
+  MyChar = raw_input
+  	("Press a character:")
   print "You pressed: " + MyChar
   if MyChar == "q":
-    ControlAPairOfPins("19","1","21","0")
+    ControlAPairOfPins
+    	("19","1","21","0")
     print "Forward"
   elif MyChar == "a":
-    ControlAPairOfPins("19","0","21","0")
+    ControlAPairOfPins
+    	("19","0","21","0")
     print "Stop"
   elif MyChar == "z":
-    ControlAPairOfPins("19","0","21","1")
+    ControlAPairOfPins
+    	("19","0","21","1")
     print ("Back")
   elif MyChar == "i":
-    ControlAPairOfPins("11","1","13","0")
+    ControlAPairOfPins
+    	("11","1","13","0")
     print "Left"
   elif MyChar == "o":
-    ControlAPairOfPins("11","0","13","0")
+    ControlAPairOfPins
+    	("11","0","13","0")
     print "Stop steering"
   elif MyChar == "p":
-    ControlAPairOfPins("11","0","13","1")
+    ControlAPairOfPins
+    	("11","0","13","1")
     print "Right"
   else:
     print "Not a command"
