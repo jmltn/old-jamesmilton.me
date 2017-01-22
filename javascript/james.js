@@ -58,6 +58,12 @@ function getPos(e) {
 }
 
 
+
+$(window).load(function() {
+	// Animate loader off screen
+	$(".se-pre-con").fadeOut("slow");;
+});
+
 /* @license Minigrid v3.0.1 â€“ minimal cascading grid layout http://alves.im/minigrid */ ! function(t, e) {
   "function" == typeof define && define.amd ? define(e) : "object" == typeof exports ? module.exports = e() : t.Minigrid = e()
 }(this, function(t) {
