@@ -51,9 +51,10 @@ function getPos(e) {
 		degY = (((y/midY)*deg)-deg)*-1;
 		var table1 = document.querySelector("#mainSquare1");	    
 		table1.style.transform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
-		
+		table1.style.webkitTransform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
 		var table2 = document.querySelector("#mainSquare2");	    
 		table2.style.transform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
+		table2.style.webkitTransform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
 	}
 }
 
