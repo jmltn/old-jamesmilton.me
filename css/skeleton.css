@@ -543,11 +543,10 @@ there.
 
 #smileContainer{
 	text-align: center;
+	margin-top: 20px;
 }
 #smile{
-	text-decoration: none;
-	margin-top: 30px;
-	font-size: 50px;
+	font-size: 30px;
 } 
 	
 #smile:hover {

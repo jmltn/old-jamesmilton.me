@@ -49,12 +49,23 @@ function getPos(e) {
 		deg = 2;
 		degX = ((x/midX)*deg)-deg;
 		degY = (((y/midY)*deg)-deg)*-1;
-		var table1 = document.querySelector("#mainSquare1");	    
-		table1.style.transform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
+		
+		
+		var table1 = document.querySelector("#mainSquare1");	
 		table1.style.webkitTransform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
-		var table2 = document.querySelector("#mainSquare2");	    
-		table2.style.transform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
+		table1.style.MozTransform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
+		table1.style.msTransform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
+		table1.style.OTransform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
+		table1.style.transform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
+		
+		    
+		
+		var table2 = document.querySelector("#mainSquare2");	
 		table2.style.webkitTransform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
+		table2.style.MozTransform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
+		table2.style.msTransform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
+		table2.style.OTransform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
+		table2.style.transform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
 	}
 }
 
