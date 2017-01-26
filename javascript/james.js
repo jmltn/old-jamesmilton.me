@@ -7,6 +7,7 @@ $(document).ready(function(){
     
     
     
+/*
     var x = Math.floor(Math.random()*(5)+1); 
     //maroon
     if (x == 1) {
@@ -33,6 +34,7 @@ $(document).ready(function(){
 	    document.getElementById('mainSquare1').style.backgroundColor = '#9ac29a';
 	    document.getElementById('smile').style.color = '#9ac29a';
 	}
+*/
     
     
     

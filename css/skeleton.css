@@ -509,7 +509,8 @@ there.
 #mainSquare1{
     width: 1000px;
     height: 500px;
-	background-color: red;
+	animation: colorchange 100s infinite alternate;
+    -webkit-animation: colorchange 100s infinite alternate;
 	margin: 0 auto;
     
 }
@@ -549,6 +550,7 @@ there.
 	font-size: 30px;
 } 
 	
+/*
 #smile:hover {
 -webkit-animation:smile 0.5s infinite;
 -ms-animation:smile 0.5s infinite;
@@ -607,6 +609,7 @@ animation:smile 0.5s infinite;
 90% {color: #8000ff;}
 100% {color: #ff0080;}
 }
+*/
 
 
 
@@ -808,5 +811,177 @@ if it's not present, don't show loader */
   font-size: 20px;
 }
 
+@keyframes colorchange
+    {
+    0% {
+        background-color: #ff6c8c
+    }
 
+    5% {
+        background-color: #ff6c8c
+    }
+
+    10% {
+        background-color: #fdad54
+    }
+
+    15% {
+        background-color: #71c671
+    }
+
+    20% {
+        background-color: #c2e845
+    }
+
+    25% {
+        background-color: #ebe900
+    }
+
+    30% {
+        background-color: #ebe900
+    }
+
+    35% {
+        background-color: #ffc700
+    }
+
+    40% {
+        background-color: #ffc700
+    }
+
+    45% {
+        background-color: #ffc559
+    }
+
+    50% {
+        background-color: #fe9b57
+    }
+
+    55% {
+        background-color: #fdad54
+    }
+
+    60% {
+        background-color: #fda38b
+    }
+
+    65% {
+        background-color: #ff6c8c
+    }
+
+    70% {
+        background-color: #fe4787
+    }
+
+    75% {
+        background-color: #fe508d
+    }
+
+    80% {
+        background-color: #fd44c4
+    }
+
+    85% {
+        background-color: #e980f6
+    }
+
+    90% {
+        background-color: #ff5538
+    }
+
+    95% {
+        background-color: #3373ff
+    }
+
+    100% {
+        background-color: #2f7eff
+    }
+}
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+	{
+    0% {
+        background-color: #ff6c8c
+    }
+
+    5% {
+        background-color: #ff6c8c
+    }
+
+    10% {
+        background-color: #fdad54
+    }
+
+    15% {
+        background-color: #71c671
+    }
+
+    20% {
+        background-color: #c2e845
+    }
+
+    25% {
+        background-color: #ebe900
+    }
+
+    30% {
+        background-color: #ebe900
+    }
+
+    35% {
+        background-color: #ffc700
+    }
+
+    40% {
+        background-color: #ffc700
+    }
+
+    45% {
+        background-color: #ffc559
+    }
+
+    50% {
+        background-color: #fe9b57
+    }
+
+    55% {
+        background-color: #fdad54
+    }
+
+    60% {
+        background-color: #fda38b
+    }
+
+    65% {
+        background-color: #ff6c8c
+    }
+
+    70% {
+        background-color: #fe4787
+    }
+
+    75% {
+        background-color: #fe508d
+    }
+
+    80% {
+        background-color: #fd44c4
+    }
+
+    85% {
+        background-color: #e980f6
+    }
+
+    90% {
+        background-color: #ff5538
+    }
+
+    95% {
+        background-color: #3373ff
+    }
+
+    100% {
+        background-color: #2f7eff
+    }
+}
 
