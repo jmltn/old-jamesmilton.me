@@ -10,14 +10,14 @@ title: Dissertation
 <table>
 	{% for post in site.categories.dissertation %}
 		<tr>
-			<td>
-				<time class="date-as-calendar position-em size0_5x">
+			<td class="firstColumn">
+				<time class="date-as-calendar position-em">
 					<span class="day">{{ post.date | date: "%e" }}</span>
 					<span class="month">{{ post.date | date: "%B" }}</span>
 				</time>
 			</td>
-			<td>
-				<h5>{{ post.title }}</h6>
+			<td class="secondColumn">
+				<h4>{{ post.title }} <span class="noFirstColumn"><h6>{{ post.date | date: "%B" }} {{ post.date | date: "%e" }}</h6></span> </h4>
 				<p>{{post.content}}</p>
 				<a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
 			</td>
