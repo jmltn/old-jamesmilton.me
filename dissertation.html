@@ -8,42 +8,24 @@ title: Dissertation
 
 
 <table>
-	
-<!-- entry 1 -->
-<tr>
-<td>
-<time datetime="2014-09-24" class="date-as-calendar position-em size0_5x">
-<span class="day">24</span>
-<span class="month">June</span>
-</time>
-</td>
-
-<td>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</td>
-</tr>
-	
-
-<!-- entry 2 -->
-<tr>
-<td>
-<time datetime="2014-09-24" class="date-as-calendar position-em size0_5x">
-<span class="day">2</span>
-<span class="month">January</span>
-</time>
-</td>
-
-<td>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</td>
-</tr>	
-	
-	
-
-	
-	
-	
+	{% for post in site.categories.dissertation %}
+		<tr>
+			<td>
+				<time class="date-as-calendar position-em size0_5x">
+					<span class="day">{{ post.date | date: "%e" }}</span>
+					<span class="month">{{ post.date | date: "%B" }}</span>
+				</time>
+			</td>
+			<td>
+				<h5>{{ post.title }}</h6>
+				<p>{{post.content}}</p>
+				<a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+			</td>
+		</tr>	
+	{% endfor %}
 </table>
 
 
-<a href="https://twitter.com/jmltn">@jmltn</a>
+<footer>
+	<p>© {{site.time | date:'%Y'}} James Milton, unless otherwise noted.</p>
+</footer>

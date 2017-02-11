@@ -40,16 +40,15 @@
 
 	<!-- Favicon
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	<link rel="icon" type="image/png" href="images/favicon.png">
+	<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png">
 	
   </head>
 
   <body>
 	<div style="margin-top: 20px;" class="container">
 	    <h4>{{ page.title }}</h4>
-		<h6><a href="{{ site.baseurl }}/">Home</a> / <a href="{{ site.baseurl }}/portfolio">Portfolio</a></h6> 
+		<h6><a href="{{ site.baseurl }}/">Home</a> / <a href="{{ site.baseurl }}/{{ page.categories | last }}">{{ page.categories | last | capitalize}}</a></h6> 
 		
-
 	    <div class="postContent">
 		    {{ content }}
 		</div>
@@ -58,7 +57,7 @@
 	    <footer style="border-top: 1px solid #E1E1E1">
 		    </br>
 			<p>Written on {{ page.date | date: "%B %e, %Y" }}</p>
-		    <p>© 2016 James Milton, unless otherwise noted.</p>
+		    <p>© {{site.time | date:'%Y'}} James Milton, unless otherwise noted.</p>
 		</footer>
 	</div>
   </body>

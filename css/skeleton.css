@@ -509,8 +509,8 @@ there.
 #mainSquare1{
     width: 1000px;
     height: 500px;
-	animation: colorchange 100s infinite alternate;
-    -webkit-animation: colorchange 100s infinite alternate;
+	animation: colorchange 80s infinite alternate;
+    -webkit-animation: colorchange 80s infinite alternate;
 	margin: 0 auto;
     
 }
