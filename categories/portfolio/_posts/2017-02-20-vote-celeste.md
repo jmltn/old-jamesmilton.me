@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jeff as a Mosaic
+title: Forget the rest, vote Celeste!
 image: /images/voteceleste.png 
 ---
 I made a poster and website for Celeste's campaign for Womens Officer - Sheffield University Students Union - 2017/2018.
