@@ -493,13 +493,17 @@ there.
 
 .myText2 {
 	font-size: 15px;
-	
+	width: 500px;
 	float: right;
 	text-align: right;
 	padding: 0 20px 20px 20px;
 	box-sizing:border-box;
 }
-
+@media (max-width: 1000px) {
+	.myText2{
+		width: 100%
+	}
+}
 
 
 #mainSquare1{
