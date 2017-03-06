@@ -445,7 +445,7 @@ there.
 }
 /* Home */
 .myPicture1, .myPicture2{
-	background: url("{{ site.baseurl }}/images/me.JPG") 50% 50% no-repeat; ; /* 50% 50% centers image in div */
+	background: url("{{ site.baseurl }}/images/me.JPG") 50% 50% no-repeat; /* 50% 50% centers image in div */
 	width: 500px;
 	height: 100%;
 	background-size:cover;
@@ -493,16 +493,10 @@ there.
 
 .myText2 {
 	font-size: 15px;
-	width: 206px;
 	float: right;
 	text-align: right;
 	padding: 0 20px 20px 20px;
 	box-sizing:border-box;
-}
-@media (max-width: 1000px) {
-	.myText2{
-		width: 170px;
-	}
 }
 
 

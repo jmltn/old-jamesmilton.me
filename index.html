@@ -30,7 +30,7 @@ layout: home
 		</div>
 		<div class="myText2">
 			<h4 style="margin-bottom: 1rem;">James Milton</h4>
-			<h6 style="text-align: left" id="para1" ></h6>
+			<h6>Designer & Developer</h6>
 		</div>
 	</div>
 </div>
@@ -66,14 +66,61 @@ layout: home
 	</div>
 	<div class="myText2">
 		<h4 style="margin-bottom: 1rem;">James Milton</h4>
-		<h6 style="text-align: left" id="para2" ></h6>
+		<h6 style="text-align: left" id="para1" ></h6>
 	</div>
 </div>
 
-<div id="smileContainer"><a id="smile" href="#">click</a>
+<div id="smileContainer"><a id="smile" href="#">"who's this?"</a>
 </div>
 
 <script>
+	
+$(document).ready(function(){
+	
+	if (window.location.pathname == '{{ site.baseurl }}/') {
+		$("#smile").click(function(){
+	        $(".toggle").toggle("slow");
+	    });
+    }
+    
+});
+
+function getPos(e) {
+	if ($(window).width() > 1000) {
+		x = e.clientX;
+		y = e.clientY;
+		midX = window.innerWidth/2
+		midY = window.innerHeight/2
+		deg = 2;
+		degX = ((x/midX)*deg)-deg;
+		degY = (((y/midY)*deg)-deg)*-1;
+		
+		
+		var table1 = document.querySelector("#mainSquare1");	
+/*
+		table1.style.webkitTransform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
+		table1.style.MozTransform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
+		table1.style.msTransform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
+		table1.style.OTransform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
+*/
+		table1.style.transform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
+		
+		    
+		
+		var table2 = document.querySelector("#mainSquare2");	
+/*
+		table2.style.webkitTransform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
+		table2.style.MozTransform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
+		table2.style.msTransform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
+		table2.style.OTransform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
+*/
+		table2.style.transform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
+	}
+}
+
+	
+	
+	
 var prefix = '';
 var skills = [
     'Designer',
@@ -83,8 +130,7 @@ var delay = 5;
 var step = 1;
 var tail = 5;
 var timeout = 75;
-var p1 = document.getElementById('para2');
-var p2 = document.getElementById('para1');
+var p1 = document.getElementById('para1');
 var colors = [
     "rgb(110,64,170)",
     "rgb(150,61,179)",
@@ -175,13 +221,9 @@ function render() {
         }
     }
     p1.textContent = kye.text;
-    p2.textContent = kye.text;
     p1.appendChild(getRandomColoredString(kye.prefixP < prefix.length ?
         Math.min(tail, tail + kye.prefixP) :
-        Math.min(tail, skill.length - kye.skillP)));
-    p2.appendChild(getRandomColoredString(kye.prefixP < prefix.length ?
-        Math.min(tail, tail + kye.prefixP) :
-        Math.min(tail, skill.length - kye.skillP)));    
+        Math.min(tail, skill.length - kye.skillP)));  
     setTimeout(render, timeout);
     
   
