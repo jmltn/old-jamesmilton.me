@@ -64,7 +64,8 @@ Due to the stigma attached to the failings of software in the past, it’s unlik
 
 [7] J. J. Thomson, "The trolley problem," The Yale Law Journal, vol. 94, no. 6, p. 1395, May 1985.
 
-[8] Department for Transport, "The Pathway to Driverless Cars: Summary report and action plan," 2015. [Online]. Available: https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/401562/pathway- driverless-cars-summary.pdf. Accessed: Apr. 18, 2016.
+[8] Department for Transport, "The Pathway to Driverless Cars: Summary report and action plan," 2015. [Online]. Available: https://www.gov.uk/government/uploads
+/system/uploads/attachment_data/file/401562/pathway-driverless-cars-summary.pdf. Accessed: Apr. 18, 2016.
 
 
 
