@@ -22,7 +22,7 @@ Increasingly with recent availability of affordable, adaptable and simple hardwa
 
 Instead of adapting full sized Toyota Prius’ like Google, these enthusiasts are ripping apart off-the-shelf remote control cars, modifying their circuitry to allow their Raspberry Pi’s to have full control of their movement.
 
-University student, [Zheng Wang](https://en.wikipedia.org/wiki/DARPA_Grand_Challenge){:target="_blank"}, used his Raspberry Pi and other cheap hardware to modify a remote control car [4]. The system is simple, consisting of its inputs – a camera and ultrasonic sensor; a computer - a Raspberry Pi to process the input; and it’s output - a remote control car.
+University student, [Zheng Wang](https://zhengludwig.wordpress.com/projects/self-driving-rc-car/){:target="_blank"}, used his Raspberry Pi and other cheap hardware to modify a remote control car [4]. The system is simple, consisting of its inputs – a camera and ultrasonic sensor; a computer - a Raspberry Pi to process the input; and it’s output - a remote control car.
 
 ![]({{ site.baseurl }}/images/driverlesscars/Picture3-min.png)
 *Zheng Wang 2015*
