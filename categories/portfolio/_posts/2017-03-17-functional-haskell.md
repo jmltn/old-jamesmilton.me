@@ -6,7 +6,7 @@ image: /images/haskell/findmoves1.png
 
 For an assignment, I had to make an implementation of a Solitaire (Patience) card game in Haskell, an advanced, purely functional programming language.  The particular variant of Solitaire is called [8-Off](https://en.wikipedia.org/wiki/Eight_Off).
 
-The main bulk of this page is showing how I made an 'auto-solve' function, which when given a deck of cards, will attempt to solve the game itself whilst considering future moves. My code can be found here [here](#).
+The main bulk of this page is showing how I made an 'auto-solve' function, which when given a deck of cards, will attempt to solve the game itself whilst considering future moves. My code can be found here [here](https://github.com/jmltn/haskell).
 
 **TL;DR:** A professional Eight Off Solitaire player will win a game (correctly place all 52 cards) 33.3% of the time. My Haskell 'auto-solve' implementation won a game 29.4% of the time.
 
