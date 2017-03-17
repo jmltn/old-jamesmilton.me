@@ -726,6 +726,11 @@ if it's not present, don't show loader */
     vertical-align: middle;
 }
 
+.postContent table{
+	margin: auto;
+	margin-bottom: 2.5rem;
+}
+
 
 
 
