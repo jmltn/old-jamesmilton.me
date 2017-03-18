@@ -2,6 +2,7 @@
 layout: post
 title: RaspberryRev Outcome
 image: /images/raspberry-rev/Lego Holes 2-min.jpg
+filter: fPictures fMiscellaneous fWebsites fWriting fCode
 ---
 
 *The content below briefly shows the process of how the car was developed. If you want to know more about this project, checkout the embedded pdf below of my project submission.*

@@ -2,6 +2,7 @@
 layout: post
 title: Refined Designs
 image: /refineddesign/images/splash.jpeg
+filter: fWebsites fMiscellaneous
 ---
 
 This is just a generic website that I made a few years ago which I thought I'd put on this site.

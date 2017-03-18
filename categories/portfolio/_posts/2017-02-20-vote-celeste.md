@@ -2,6 +2,7 @@
 layout: post
 title: Forget the rest, vote Celeste!
 image: /images/voteceleste.png 
+filter: fPictures fMiscellaneous fWebsites
 ---
 I made a poster and website for Celeste's campaign for Womens Officer - Sheffield University Students Union - 2017/2018 (SHE WON! 🎉). 
 

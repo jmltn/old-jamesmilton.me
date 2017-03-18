@@ -2,6 +2,7 @@
 layout: post
 title: RaspberryRev Design
 image: /images/raspberry-rev/plate.png
+filter: fPictures fMiscellaneous
 ---
 
 Going back to my Product Design A-Level, I wanted to make a iPhone controlled remote controlled car which could be built with Lego. 

@@ -3,92 +3,52 @@ layout: default
 permalink: /portfolio/
 title: Portfolio
 ---
-<div class="se-pre-con"></div>
-<div class="cards">
-	{% for post in site.categories.portfolio %}
-		<a href="{{ site.baseurl }}{{ post.url }}">
-	  	<div class="card">
-			<img src="{{ site.baseurl }}{{ post.image }}"/>
-			<h6 class="postTitle" >{{ post.title }}</h6>
-	  	</div>
-		</a>
-	{% endfor %}
+<div class="button-group filter-button-group">
+  <button data-filter="*">show all</button>
+  <button data-filter=".fPictures">pictures</button>
+  <button data-filter=".fCode">code</button>
+  <button data-filter=".fWriting">writing</button>
+  <button data-filter=".fWebsites">websites</button>
+  <button data-filter=".fMiscellaneous">miscellaneous</button>
 </div>
 
 
+
+<div class="cards" data-masonry='{ "itemSelector": ".card", "columnWidth": 300, "gutter": 10 }' data-isotope='{ "itemSelector": ".card" }'>
+	{% for post in site.categories.portfolio %}
+		<a href="{{ site.baseurl }}{{ post.url }}">
+		<div class="card {{ post.filter }}">
+			<img src="{{ site.baseurl }}{{ post.image }}"/>
+			<h6 class="postTitle" >{{ post.title }}</h6>
+		</div>
+		</a>
+	{% endfor %}
+	
+</div>
+
+
+
+
+
+
+
+
 <script>
-$(window).load(function() {
-	// Animate loader off screen
-	$(".se-pre-con").fadeOut("slow");;
+$( document ).ready(function() {
+	var $container = $('.cards');
+	// initialize Masonry after all images have loaded  
+	$container.imagesLoaded( function() {
+	     $container.masonry();
+	});
+
+	// filter items on button click
+	$('.filter-button-group').on( 'click', 'button', function() {
+	  var filterValue = $(this).attr('data-filter');
+	  $container.isotope({ filter: filterValue });
+	});
+	
+	
+	
 });
 
-/* @license Minigrid v3.0.1 â€“ minimal cascading grid layout http://alves.im/minigrid */ ! function(t, e) {
-  "function" == typeof define && define.amd ? define(e) : "object" == typeof exports ? module.exports = e() : t.Minigrid = e()
-}(this, function(t) {
-  "use strict";
-
-  function e(t, e) {
-    for (var i in e) e.hasOwnProperty(i) && (t[i] = e[i]);
-    return t
-  }
-  var i = function(t) {
-    var i = t.container instanceof Node ? t.container : document.querySelector(t.container),
-      n = t.item instanceof NodeList ? t.item : i.querySelectorAll(t.item);
-    this.props = e(t, {
-      container: i,
-      nodeList: n
-    })
-  };
-  return i.prototype.mount = function() {
-    if (!this.props.container) return !1;
-    if (!this.props.nodeList || 0 === this.props.nodeList.length) return !1;
-    var t = "number" == typeof this.props.gutter && isFinite(this.props.gutter) && Math.floor(this.props.gutter) === this.props.gutter ? this.props.gutter : 0,
-      e = this.props.done,
-      i = this.props.container,
-      n = this.props.nodeList;
-    i.style.width = "";
-    var r = Array.prototype.forEach,
-      o = i.getBoundingClientRect().width,
-      s = n[0].getBoundingClientRect().width + t,
-      p = Math.max(Math.floor((o - t) / s), 1),
-      a = 0;
-    o = s * p + t + "px", i.style.width = o, i.style.position = "relative";
-    for (var c = [], u = [], f = 0; p > f; ++f) u.push(f * s + t), c.push(t);
-    r.call(n, function(e) {
-      var i = c.slice(0).sort(function(t, e) {
-        return t - e
-      }).shift();
-      i = c.indexOf(i);
-      var n = parseInt(u[i]),
-        r = parseInt(c[i]);
-      e.style.position = "absolute", e.style.overflow = "hidden", e.style.webkitBackfaceVisibility = e.style.backfaceVisibility = "hidden", e.style.transformStyle = "preserve-3d", e.style.transform = "translate3D(" + n + "px," + r + "px, 0)", c[i] += e.getBoundingClientRect().height + t, a += 1
-    });
-    var h = c.slice(0).sort(function(t, e) {
-      return t - e
-    }).pop();
-    i.style.height = h + "px", "function" == typeof e && e(n)
-  }, i
-});
-
-
-(function(){
-  var grid;
-  function init() {
-    grid = new Minigrid({
-      container: '.cards',
-      item: '.card',
-      gutter: 12
-    });
-    grid.mount();
-  }
-  
-  // mount
-  function update() {
-    grid.mount();
-  }
-  document.addEventListener('DOMContentLoaded', init);
-  window.addEventListener('resize', update);
-  window.addEventListener('load', update);
-  
-})();
 </script>

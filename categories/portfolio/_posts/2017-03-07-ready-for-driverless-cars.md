@@ -2,6 +2,7 @@
 layout: post
 title: Are we ready for a virtual designated driver?
 image: /images/driverlesscars/a.png
+filter: fWriting
 ---
 
 Since 2009, [Google](https://www.google.com/selfdrivingcar/){:target="_blank"} has iterated through four generations of driverless vehicles. Now Google have a real dependable prototype, which has been developed to work on motorways and in complex environments such as city streets, with over 1.5 million self driving miles under their belt [1].

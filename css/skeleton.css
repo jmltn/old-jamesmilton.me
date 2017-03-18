@@ -664,31 +664,10 @@ animation:smile 0.5s infinite;
 
 
 
-
-
-
-/* Paste this css to your style sheet file or under head tag */
-/* This only works with JavaScript, 
-if it's not present, don't show loader */
-.no-js #loader { display: none;  }
-.js #loader { display: block; position: absolute; left: 100px; top: 0; }
-.se-pre-con {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 9999;
-	background: url("{{ site.baseurl }}/images/Preloader_5.gif") center no-repeat #fff;
-}
-
-
-
-
-
 .card {
   border-top: black solid 8px;
   width: 300px; 
+  margin: 0 auto;
 }
 
 .card:hover{
@@ -698,7 +677,7 @@ if it's not present, don't show loader */
 
 @media (max-width: 1000px) {
 	.card{
-		width: 90%; 
+		width: 100%; 
 	}
 }
 
@@ -714,6 +693,13 @@ if it's not present, don't show loader */
   margin: 0 auto;
   text-align: center;
  }
+ 
+ /* clearfix */
+.cards:after {
+  content: '';
+  display: block;
+  clear: both;
+}
  
 
 

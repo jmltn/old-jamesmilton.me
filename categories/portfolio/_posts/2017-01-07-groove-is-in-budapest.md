@@ -2,6 +2,7 @@
 layout: post
 title: Groove Is In Budapest
 image: /images/SAM_1349.JPG
+filter: fMiscellaneous
 ---
 
 January 2017, Celeste Jones and I visited Budapest - we liked it. 

@@ -2,6 +2,7 @@
 layout: post
 title: Jeff
 image: /jeff/jeff.jamesmilton.me.hyperesources/OBEY-JEFF.jpg
+filter: fWebsites fMiscellaneous
 ---
 
 This is another random website I made about my dog Jeff. Here I experimented with HTML5 animations.

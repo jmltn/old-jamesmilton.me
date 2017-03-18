@@ -2,6 +2,7 @@
 layout: post
 title: Jeff as a Mosaic
 image: /images/mosaic-jeff/5-min.png
+filter: fPictures
 ---
 <!---
 ![]({{ site.baseurl }}/images/mosaic-jeff/1-min.png)
