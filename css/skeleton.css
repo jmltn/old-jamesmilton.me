@@ -815,174 +815,173 @@ animation:smile 0.5s infinite;
 @keyframes colorchange
     {
     0% {
-        background-color: #ff6c8c
+        background-color: #b4c4a6
     }
 
     5% {
-        background-color: #ff6c8c
+        background-color: #b4c4a6
     }
 
     10% {
-        background-color: #fdad54
+        background-color: #4c493a
     }
 
     15% {
-        background-color: #71c671
+        background-color: #515256
     }
 
     20% {
-        background-color: #c2e845
+        background-color: #74829d
     }
 
     25% {
-        background-color: #ebe900
+        background-color: #6e798d
     }
 
     30% {
-        background-color: #ebe900
+        background-color: #161a1d
     }
 
     35% {
-        background-color: #ffc700
+        background-color: #817f8a
     }
 
     40% {
-        background-color: #ffc700
+        background-color: #455f70
     }
 
     45% {
-        background-color: #ffc559
+        background-color: #668aa0
     }
 
     50% {
-        background-color: #fe9b57
+        background-color: #7197ac
     }
 
     55% {
-        background-color: #fdad54
+        background-color: #6992a6
     }
 
     60% {
-        background-color: #fda38b
+        background-color: #7095b0
     }
 
     65% {
-        background-color: #ff6c8c
+        background-color: #b4cbeb
     }
 
     70% {
-        background-color: #fe4787
+        background-color: #d7e7f7
     }
 
     75% {
-        background-color: #fe508d
+        background-color: #5b5f6b
     }
 
     80% {
-        background-color: #fd44c4
+        background-color: #6d7687
     }
 
     85% {
-        background-color: #e980f6
+        background-color: #b6c1e1
     }
 
     90% {
-        background-color: #ff5538
+        background-color: #303c38
     }
 
     95% {
-        background-color: #3373ff
+        background-color: #303c38
     }
 
     100% {
-        background-color: #2f7eff
+        background-color: #596b51
     }
 }
 
 @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
-	{
+    {
     0% {
-        background-color: #ff6c8c
+        background-color: #b4c4a6
     }
 
     5% {
-        background-color: #ff6c8c
+        background-color: #b4c4a6
     }
 
     10% {
-        background-color: #fdad54
+        background-color: #4c493a
     }
 
     15% {
-        background-color: #71c671
+        background-color: #515256
     }
 
     20% {
-        background-color: #c2e845
+        background-color: #74829d
     }
 
     25% {
-        background-color: #ebe900
+        background-color: #6e798d
     }
 
     30% {
-        background-color: #ebe900
+        background-color: #161a1d
     }
 
     35% {
-        background-color: #ffc700
+        background-color: #817f8a
     }
 
     40% {
-        background-color: #ffc700
+        background-color: #455f70
     }
 
     45% {
-        background-color: #ffc559
+        background-color: #668aa0
     }
 
     50% {
-        background-color: #fe9b57
+        background-color: #7197ac
     }
 
     55% {
-        background-color: #fdad54
+        background-color: #6992a6
     }
 
     60% {
-        background-color: #fda38b
+        background-color: #7095b0
     }
 
     65% {
-        background-color: #ff6c8c
+        background-color: #b4cbeb
     }
 
     70% {
-        background-color: #fe4787
+        background-color: #d7e7f7
     }
 
     75% {
-        background-color: #fe508d
+        background-color: #5b5f6b
     }
 
     80% {
-        background-color: #fd44c4
+        background-color: #6d7687
     }
 
     85% {
-        background-color: #e980f6
+        background-color: #b6c1e1
     }
 
     90% {
-        background-color: #ff5538
+        background-color: #303c38
     }
 
     95% {
-        background-color: #3373ff
+        background-color: #303c38
     }
 
     100% {
-        background-color: #2f7eff
+        background-color: #596b51
     }
-}
 
