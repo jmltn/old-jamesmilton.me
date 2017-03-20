@@ -18,7 +18,7 @@ title: Portfolio
 	{% for post in site.categories.portfolio %}
 		<a href="{{ site.baseurl }}{{ post.url }}">
 		<div class="card {{ post.filter }}">
-			<img class="lazy" src="http://www.cuisson.co.uk/templates/cuisson/supersize/slideshow/img/progress.BAK-FOURTH.gif" data-original="{{ site.baseurl }}{{ post.image }}"/>
+			<img class="lazy" src="{{ site.baseurl }}/images/Preloader_5.gif" data-original="{{ site.baseurl }}{{ post.image }}"/>
 			<h6 class="postTitle" >{{ post.title }}</h6>
 		</div>
 		</a>
@@ -62,10 +62,9 @@ $( document ).ready(function() {
 	    masonry_update();
 	});
 	
-	function masonry_update() {     
-	    var $works_list = $('.cards');
-	    $works_list.imagesLoaded(function(){
-	        $works_list.masonry({
+	function masonry_update() {
+	    $container.imagesLoaded(function(){
+	        $container.masonry({
 	            itemSelector: '.card',　
 	            isFitWidth: true,　
 	            columnWidth: 300
