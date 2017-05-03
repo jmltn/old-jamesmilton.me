@@ -5,16 +5,18 @@ title: Portfolio
 ---
 <div class="button-group filter-button-group">
   <button data-filter="*">show all</button>
-  <button data-filter=".fPictures">pictures</button>
-  <button data-filter=".fCode">code</button>
+  <!-- <button data-filter=".fPictures">pictures</button> -->
+  <!-- <button data-filter=".fCode">code</button> -->
   <button data-filter=".fWriting">writing</button>
   <button data-filter=".fWebsites">websites</button>
   <button data-filter=".fMiscellaneous">miscellaneous</button>
+  <input type="text" class="quicksearch" placeholder="Search" />
+  
 </div>
 
 
 
-<div class="cards" data-masonry='{ "itemSelector": ".card", "columnWidth": 300, "gutter": 10 }' data-isotope='{ "itemSelector": ".card" }'>
+<div class="cards" data-masonry='{ "itemSelector": ".card", "columnWidth": 300}'>
 	{% for post in site.categories.portfolio %}
 		<a href="{{ site.baseurl }}{{ post.url }}">
 		<div class="card {{ post.filter }}">
@@ -34,6 +36,44 @@ title: Portfolio
 
 
 <script>
+	
+// quick search regex
+var qsRegex;
+
+// init Isotope
+var $grid = $('.cards').isotope({
+  itemSelector: '.card',
+  filter: function() {
+    return qsRegex ? $(this).text().match( qsRegex ) : true;
+  }
+});	
+	
+	
+// use value of search field to filter
+var $quicksearch = $('.quicksearch').keyup( debounce( function() {
+  qsRegex = new RegExp( $quicksearch.val(), 'gi' );
+  $grid.isotope();
+}, 200 ) );
+
+// debounce so filtering doesn't happen every millisecond
+function debounce( fn, threshold ) {
+  var timeout;
+  return function debounced() {
+    if ( timeout ) {
+      clearTimeout( timeout );
+    }
+    function delayed() {
+      fn();
+      timeout = null;
+    }
+    timeout = setTimeout( delayed, threshold || 100 );
+  }
+}	
+	
+	
+	
+	
+	
 $( document ).ready(function() {
 
 	
