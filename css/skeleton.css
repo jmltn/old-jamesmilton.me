@@ -173,7 +173,7 @@ p {
 a {
   color: #3d3d3d; }
 a:hover {
-  color: #FF69B4; }
+  color: #00c266; }
 
 
 /* Buttons
@@ -436,11 +436,11 @@ there.
 
 /* Text selection */
 ::-moz-selection {
-  color: #FF69B4;
+  color: #00c266;
   background: white;
 }
 ::selection {
-  color: #FF69B4;
+  color: #00c266;
   background: white;
 }
 /* Home */
@@ -503,8 +503,8 @@ there.
 #mainSquare1{
     width: 1000px;
     height: 500px;
-	animation: colorchange 80s infinite alternate;
-    -webkit-animation: colorchange 80s infinite alternate;
+	animation: colorchange 10s infinite alternate;
+    -webkit-animation: colorchange 10s infinite alternate;
 	margin: 0 auto;
     
 }
@@ -717,12 +717,16 @@ animation:smile 0.5s infinite;
 	margin-bottom: 2.5rem;
 }
 
+.button.is-checked {
+  color: #00c266;
+}
 
-input.quicksearch{
+
+input#quicksearch{
   display: inline-block;
   vertical-align: top;
   height: 38px;
-  color: #555;
+  color: #00c266;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
@@ -739,30 +743,30 @@ input.quicksearch{
   margin: 0;
 }
 
-input.quicksearch:hover{
+input#quicksearch:hover{
 	color: #555;
 	border-color: #888;
 	outline: 0;
 }
 
-input.quicksearch:focus{
+input#quicksearch:focus{
 	border-color: #888;
 }
 
 
-input.quicksearch::-webkit-input-placeholder {
+input#quicksearch::-webkit-input-placeholder {
 color: #555 !important;
 }
  
-input.quicksearch:-moz-placeholder { /* Firefox 18- */
+input#quicksearch:-moz-placeholder { /* Firefox 18- */
 color: #555 !important;  
 }
  
-input.quicksearch::-moz-placeholder {  /* Firefox 19+ */
+input#quicksearch::-moz-placeholder {  /* Firefox 19+ */
 color: #555 !important;  
 }
  
-input.quicksearch:-ms-input-placeholder {  
+input#quicksearch:-ms-input-placeholder {  
 color: #555 !important;  
 }
 
@@ -890,173 +894,45 @@ color: #555 !important;
 @keyframes colorchange
     {
     0% {
-        background-color: #b4c4a6
-    }
-
-    5% {
-        background-color: #b4c4a6
-    }
-
-    10% {
-        background-color: #4c493a
-    }
-
-    15% {
-        background-color: #515256
-    }
-
-    20% {
-        background-color: #74829d
+        background-color: #b2e1ab
     }
 
     25% {
-        background-color: #6e798d
-    }
-
-    30% {
-        background-color: #161a1d
-    }
-
-    35% {
-        background-color: #817f8a
-    }
-
-    40% {
-        background-color: #455f70
-    }
-
-    45% {
-        background-color: #668aa0
+        background-color: #9dc996
     }
 
     50% {
-        background-color: #7197ac
-    }
-
-    55% {
-        background-color: #6992a6
-    }
-
-    60% {
-        background-color: #7095b0
-    }
-
-    65% {
-        background-color: #b4cbeb
-    }
-
-    70% {
-        background-color: #d7e7f7
+        background-color: #479a76
     }
 
     75% {
-        background-color: #5b5f6b
-    }
-
-    80% {
-        background-color: #6d7687
-    }
-
-    85% {
-        background-color: #b6c1e1
-    }
-
-    90% {
-        background-color: #303c38
-    }
-
-    95% {
-        background-color: #303c38
+        background-color: #4db89a
     }
 
     100% {
-        background-color: #596b51
+        background-color: #329f9c
     }
 }
 
 @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
     {
     0% {
-        background-color: #b4c4a6
-    }
-
-    5% {
-        background-color: #b4c4a6
-    }
-
-    10% {
-        background-color: #4c493a
-    }
-
-    15% {
-        background-color: #515256
-    }
-
-    20% {
-        background-color: #74829d
+        background-color: #b2e1ab
     }
 
     25% {
-        background-color: #6e798d
-    }
-
-    30% {
-        background-color: #161a1d
-    }
-
-    35% {
-        background-color: #817f8a
-    }
-
-    40% {
-        background-color: #455f70
-    }
-
-    45% {
-        background-color: #668aa0
+        background-color: #9dc996
     }
 
     50% {
-        background-color: #7197ac
-    }
-
-    55% {
-        background-color: #6992a6
-    }
-
-    60% {
-        background-color: #7095b0
-    }
-
-    65% {
-        background-color: #b4cbeb
-    }
-
-    70% {
-        background-color: #d7e7f7
+        background-color: #479a76
     }
 
     75% {
-        background-color: #5b5f6b
-    }
-
-    80% {
-        background-color: #6d7687
-    }
-
-    85% {
-        background-color: #b6c1e1
-    }
-
-    90% {
-        background-color: #303c38
-    }
-
-    95% {
-        background-color: #303c38
+        background-color: #4db89a
     }
 
     100% {
-        background-color: #596b51
+        background-color: #329f9c
     }
-
+}
