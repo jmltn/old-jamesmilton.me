@@ -744,7 +744,7 @@ input#quicksearch{
 }
 
 input#quicksearch:hover{
-	color: #555;
+	color: #00c266;;
 	border-color: #888;
 	outline: 0;
 }
