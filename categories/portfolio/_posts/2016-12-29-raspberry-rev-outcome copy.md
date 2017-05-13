@@ -1,7 +1,7 @@
 ---
 layout: post
 title: RaspberryRev Outcome
-image: /images/raspberry-rev/Lego Holes 2-min.jpg
+image: /images/2016/12/raspberry-rev/Lego Holes 2-min.jpg
 filter: fPictures fMiscellaneous fWebsites fWriting fCode
 ---
 
@@ -11,19 +11,19 @@ Going back to my Product Design A-Level, I wanted to make a iPhone controlled re
 
 I designed and made a chassis which holds the Raspberry Pi, motor controller unit, rechargeable battery for Raspberry Pi, and 9v battery for motors. As well as this, on the underside of the chassis is lego surface, which allows you to stick lego accessories onto the underside.
 
-![]({{ site.baseurl }}/images/raspberry-rev/Lego Holes 2-min.jpg)
+![]({{ site.baseurl }}/images/2016/12/raspberry-rev/Lego Holes 2-min.jpg)
 
-![]({{ site.baseurl }}/images/raspberry-rev/Lego Holes 2-min.png)
+![]({{ site.baseurl }}/images/2016/12/raspberry-rev/Lego Holes 2-min.png)
 
-![]({{ site.baseurl }}/images/raspberry-rev/Photo 07-03-2014 18 23 21-min.jpg)
+![]({{ site.baseurl }}/images/2016/12/raspberry-rev/Photo 07-03-2014 18 23 21-min.jpg)
 
-![]({{ site.baseurl }}/images/raspberry-rev/Photo 16-03-2014 17 00 29 min.jpg)
+![]({{ site.baseurl }}/images/2016/12/raspberry-rev/Photo 16-03-2014 17 00 29 min.jpg)
 
-![]({{ site.baseurl }}/images/raspberry-rev/Photo 16-03-2014 17 00 51-min.jpg)
+![]({{ site.baseurl }}/images/2016/12/raspberry-rev/Photo 16-03-2014 17 00 51-min.jpg)
 
-![]({{ site.baseurl }}/images/raspberry-rev/IMG_134-min.JPG)
+![]({{ site.baseurl }}/images/2016/12/raspberry-rev/IMG_134-min.JPG)
 
-![]({{ site.baseurl }}/images/raspberry-rev/IMG_1337-min.JPG)
+![]({{ site.baseurl }}/images/2016/12/raspberry-rev/IMG_1337-min.JPG)
 
 ##### The technical setup consisted of the following.
 
@@ -130,4 +130,4 @@ while True:
 I also created a website which is an online instruction manual on how to assemble the lego parts. It can be found at [jamesmilton.me/raspberryrev/]({{ site.baseurl }}/raspberryrev/).
 
 
-If you're interested in seeing how I designed the licence plate logo, visit [this post]({{ site.baseurl }}/raspberry-rev-design/).
+If you're interested in seeing how I designed the licence plate logo, visit [this post]({{ site.baseurl }}/2016/12/raspberry-rev-design/).

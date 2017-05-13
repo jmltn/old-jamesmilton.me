@@ -1,12 +1,13 @@
 ---
 layout: post
 title: Hitchhike to Riga, Latvia
-image: /images/bummitfront.JPG
+image: /images/2017/05/bummit-front.JPG
 filter: fMiscellaneous
 ---
 
-April 2017, I went Hitchhiking with my two friends, Chris and Caitlin. We travelled across Europe to Riga, Latvia.  
+April 2017, I went hitchhiking with my two friends, Chris and Caitlin. 
 
+We hitchhiked 23 different rides, covering 1860 miles, across Europe to Riga, Latvia and raised £805 for charity on the way. 
 
 Below is a playlist of footage from the 9 days we were travelling, starting with the summary video.
 
