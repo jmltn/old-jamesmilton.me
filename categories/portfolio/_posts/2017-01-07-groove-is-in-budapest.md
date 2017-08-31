@@ -2,10 +2,10 @@
 layout: post
 title: Groove Is In Budapest
 image: /images//2017/01/budapest-celeste.JPG
-filter: fMiscellaneous
+filter: fVideo
 ---
 
-January 2017, Celeste Jones and I visited Budapest - we liked it. 
+January 2017, Celeste Jones and I visited Budapest - we liked it.
 
 We made a music video. Music courtesy of Deee-Lite, Groove Is In The Heart.
 

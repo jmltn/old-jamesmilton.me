@@ -8,8 +8,8 @@ name: James Milton
 # Moto of site
 moto: Designer & Developer
 
-# Short bio or description (displayed in the header)
-description: James lives in Sheffield, studies Computer Science at the University of Sheffield and presently working as a Software Engineer Intern for Rolls-Royce.
+# Short bio or description
+description: James Milton is a designer and developer living in Sheffield, United Kingdom. I’m currently completing my dissertation for my final year at The University of Sheffield, where I am studying Computer Science. Previously, I worked as a Software Engineer Intern at Rolls-Royce.
 
 
 #
@@ -88,5 +88,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-  
-

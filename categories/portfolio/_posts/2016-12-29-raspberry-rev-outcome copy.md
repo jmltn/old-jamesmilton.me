@@ -2,12 +2,12 @@
 layout: post
 title: RaspberryRev Outcome
 image: /images/2016/12/raspberry-rev/Lego Holes 2-min.jpg
-filter: fPictures fMiscellaneous fWebsites fWriting fCode
+filter:  fMiscellaneous fCode
 ---
 
 *The content below briefly shows the process of how the car was developed. If you want to know more about this project, checkout the embedded pdf below of my project submission.*
 
-Going back to my Product Design A-Level, I wanted to make a iPhone controlled remote controlled car which could be built with Lego. 
+Going back to my Product Design A-Level, I wanted to make a iPhone controlled remote controlled car which could be built with Lego.
 
 I designed and made a chassis which holds the Raspberry Pi, motor controller unit, rechargeable battery for Raspberry Pi, and 9v battery for motors. As well as this, on the underside of the chassis is lego surface, which allows you to stick lego accessories onto the underside.
 

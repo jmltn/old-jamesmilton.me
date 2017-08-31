@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}, {{ site.moto }}</title>
+    <title>
+      {% if page.title %}
+        {{ page.title }} |
+      {% endif %}
+
+      {{ site.name }}, {{ site.moto }}
+    </title>
 
     {% include meta.html %}
 
@@ -52,16 +58,22 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/images/misc/favicons/favicon-16x16.png">
 	<link rel="manifest" href="{{ site.baseurl }}/images/misc/favicons/manifest.json">
 	<link rel="mask-icon" href="{{ site.baseurl }}/images/misc/favicons/safari-pinned-tab.svg" color="#00c266">
-	
-	
-	
+
+
+
 
   </head>
 
   <body>
 	<div style="margin-top: 20px;" class="container">
-	    <h4><a class="siteName" href="{{ site.baseurl }}/">{{ site.name }}</a></h4>
-		<h6>{{ site.moto }}</h6>
+	  <h4><a class="siteName" href="{{ site.baseurl }}/">{{ site.name }}</a></h4>
+		<h6>
+      {% if page.title=="Final Year Dissertation" %}
+        {{ page.title }}
+      {% else %}
+        {{ site.moto }}
+      {% endif %}
+    </h6>
 	    {{ content }}
 	    {% include analytics.html %}
 	</div>

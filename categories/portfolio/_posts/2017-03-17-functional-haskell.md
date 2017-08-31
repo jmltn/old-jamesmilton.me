@@ -118,7 +118,7 @@ In this example above with an initial seed of 2, out 100 tests, 20 of them got a
 |  `(24,19.37)` |  `(32,22.07)` |  `(24,18.85)` |  `(28,21.05)` |  `(28,21.05)` |
 | **eOExpt 1600** | **eOExpt 1700** | **eOExpt 1800** | **eOExpt 1900** | **eOExpt 100** |
 |  `(31,23.41)` |  `(30,21.58)` |  `(28,21.11)` |  `(29,22.2)`  |  `(28,20.75)` |
-| **eOExpt 2100** | **eOExpt 2400** | **eOExpt 3200** | **eOExpt 3300** | **eOExpt 3400** | 
+| **eOExpt 2100** | **eOExpt 2400** | **eOExpt 3200** | **eOExpt 3300** | **eOExpt 3400** |
 |  `(30,22.38)` |  `(34,23.51)` |  `(37,24.81)` |  `(30,20.57)` |  `(31,22.13)` |
 
 
@@ -136,16 +136,12 @@ In this example above with an initial seed of 2, out 100 tests, 20 of them got a
 ---
 #### Summary
 
-From the results, it is clear from the fairly large variance that a score can vary from being 52 or getting to about half way and then getting stuck. 
+From the results, it is clear from the fairly large variance that a score can vary from being 52 or getting to about half way and then getting stuck.
 
-What I think this may be from is that some moves that are being chosen may actually be causing the the cards that need to go to the foundation to be pushed further down the column. 
+What I think this may be from is that some moves that are being chosen may actually be causing the the cards that need to go to the foundation to be pushed further down the column.
 
 Also, because the move moveNthCardHeadRes is the most favored move after toFoundations, if the next available card was an ACE, 5 cards back from the top of the column, this move will be favored over maybe putting a KING in an empty column, which could cause separation of more cards, making more foundation movable cards visible.
 
-If I wasn’t limited for time, this is something I could of implemented and consequently could have maybe yielded a better number of wins. 
+If I wasn’t limited for time, this is something I could of implemented and consequently could have maybe yielded a better number of wins.
 
-However, overall average of 24 tests of eOExpt of 100 games, (i.e. 2400 games) the mean percentage of scores of 52 was 29.4%, which I think is a very respectable score, seeing as professional Eight Off players win 33.3% of the time. 
-
-
-
-
+However, overall average of 24 tests of eOExpt of 100 games, (i.e. 2400 games) the mean percentage of scores of 52 was 29.4%, which I think is a very respectable score, seeing as professional Eight Off players win 33.3% of the time.

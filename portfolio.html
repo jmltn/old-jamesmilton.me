@@ -9,12 +9,12 @@ title: Portfolio
 
 <div id="filters" class="button-group filter-button-group">
   <button class="button is-checked" data-filter="*">show all</button>
-  <button class="button" data-filter=".fWriting">writing</button>
-  <button class="button" data-filter=".fWebsites">websites</button>
+  
+  <button class="button" data-filter=".fCode">code</button>
+  <button class="button" data-filter=".fVideo">video</button>
   <button class="button" data-filter=".fMiscellaneous">miscellaneous</button>
+
   <input type="text" id="quicksearch" placeholder="Search" />
-  <!-- <button data-filter=".fPictures">pictures</button> -->
-  <!-- <button data-filter=".fCode">code</button> -->
 </div>
 
 
@@ -28,7 +28,7 @@ title: Portfolio
 		</div>
 		</a>
 	{% endfor %}
-	
+
 </div>
 
 
@@ -39,13 +39,13 @@ title: Portfolio
 
 
 <script>
-	
+
 // quick search regex
 var qsRegex;
 var buttonFilter;
 
-	
-	
+
+
 // init Isotope
 var $grid = $('.cards').isotope({
   itemSelector: '.card',
@@ -55,20 +55,20 @@ var $grid = $('.cards').isotope({
     var buttonResult = buttonFilter ? $this.is( buttonFilter ) : true;
     return searchResult && buttonResult;
   }
-});	
-	
+});
+
 $('#filters').on( 'click', 'button', function() {
   buttonFilter = $( this ).attr('data-filter');
   $grid.isotope();
 });
-	
-	
+
+
 // use value of search field to filter
 var $quicksearch = $('#quicksearch').keyup( debounce( function() {
   qsRegex = new RegExp( $quicksearch.val(), 'gi' );
   $grid.isotope();
 }) );
-	
+
 
   // change is-checked class on buttons
 $('.button-group').each( function( i, buttonGroup ) {
@@ -95,34 +95,34 @@ function debounce( fn, threshold ) {
     }
     setTimeout( delayed, threshold || 100 );
   };
-}	
-	
-	
-	
-	
-	
+}
+
+
+
+
+
 $( document ).ready(function() {
 
-	
-	
-	
+
+
+
 	var $container = $('.cards');
-	// initialize Masonry after all images have loaded  
+	// initialize Masonry after all images have loaded
 	$container.imagesLoaded( function() {
 	     $container.masonry();
 	});
-	
-	
+
+
 	$("img.lazy").lazyload({
 	    effect: 'fadeIn',
 	    effectspeed: 1000,
 	    threshold: 200
 	});
-	
+
 	$('img.lazy').load(function() {
 	    masonry_update();
 	});
-	
+
 	function masonry_update() {
 	    $container.imagesLoaded(function(){
 	        $container.masonry({
@@ -131,7 +131,7 @@ $( document ).ready(function() {
 	            columnWidth: 300
 	        });
 	    });
-	} 
+	}
 });
 
 </script>

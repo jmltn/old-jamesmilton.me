@@ -9,24 +9,23 @@ layout: home
 			<p>
 			  James Milton is a designer and developer living in Sheffield, United Kingdom.
 			</p>
-			  
-			<p>  
-			  I'm currently in my final year at 
-	          <a target="_blank" href="http://www.sheffield.ac.uk" >University of Sheffield</a>
-	          studying Computer Science.
-			  Previously, I worked as a Software Engineer Intern at 
-			  <a target="_blank" href="http://www.rolls-royce.com" >Rolls-Royce</a>.
+
+			<p>
+				I’m currently completing my
+				<a target="_blank" href="{{site.baseurl}}/dissertation">dissertation</a> for my final year at the
+				<a target="_blank" href="http://www.sheffield.ac.uk" >University of Sheffield</a>, where I am studying Computer Science. Previously, I worked as a Software Engineer Intern at
+				<a target="_blank" href="http://www.rolls-royce.com" >Rolls-Royce</a>.
 			</p>
-			    
-			<p> 
+
+			<p>
 			  Take a look at my
-			  <a href="{{ site.baseurl }}/portfolio" >portfolio</a> and my 
-			  <a target="_blank" href="https://drive.google.com/file/d/0BxnFEsoXA64PbjdxTUVEN2ppYnc/view?usp=sharing" >résumé</a>. If you like what you see, send over an 
+			  <a href="{{ site.baseurl }}/portfolio" >portfolio</a> and my
+			  <a target="_blank" href="https://drive.google.com/file/d/0BxnFEsoXA64PbjdxTUVEN2ppYnc/view?usp=sharing" >résumé</a>. If you like what you see, send over an
 			  <a target="_blank" href="mailto:james.milton@me.com" >email</a>.
-			</p>    
-			 
+			</p>
+
 			</br>
-			   
+
 			<p style="text-align: center;">
 			  <a target="_blank" href="https://www.instagram.com/james.jpg/" >instagram</a>,
 			  <a target="_blank" href="https://github.com/jmltn" >github</a>,
@@ -34,8 +33,8 @@ layout: home
 			  <a target="_blank" href="https://www.linkedin.com/in/jmltn/" >linkedin</a>,
 			  <a target="_blank" href="https://twitter.com/jmltn" >twitter</a>
 			</p>
-			    
-			
+
+
 		</div>
 		<div class="myText2">
 			<h4 style="margin-bottom: 1rem;">James Milton</h4>
@@ -51,24 +50,25 @@ layout: home
 	<div style="overflow: auto;">
 		<div class="myText1">
 			<p>
-			  James Milton is a designer and developer living in Sheffield and studying Computer Science at the
-			  <a target="_blank" href="http://www.sheffield.ac.uk" >University of Sheffield</a>. 
+			  James Milton is a designer and developer living in Sheffield, United Kingdom.
 			</p>
-			  
-			<p>  
-			  Previously, I worked as a Software Engineer Intern at 
-			  <a target="_blank" href="http://www.rolls-royce.com" >Rolls-Royce</a>.
+
+			<p>
+				I’m currently completing my
+				<a target="_blank" href="{{site.baseurl}}/dissertation">dissertation</a> for my final year at the 
+				<a target="_blank" href="http://www.sheffield.ac.uk" >University of Sheffield</a>, where I am studying Computer Science. Previously, I worked as a Software Engineer Intern at
+				<a target="_blank" href="http://www.rolls-royce.com" >Rolls-Royce</a>.
 			</p>
-			    
-			<p> 
+
+			<p>
 			  Take a look at my
-			  <a href="{{ site.baseurl }}/portfolio" >portfolio</a> and my 
-			  <a target="_blank" href="https://drive.google.com/file/d/0BxnFEsoXA64PbjdxTUVEN2ppYnc/view?usp=sharing" >résumé</a>. If you like what you see, send over an 
+			  <a href="{{ site.baseurl }}/portfolio" >portfolio</a> and my
+			  <a target="_blank" href="https://drive.google.com/file/d/0BxnFEsoXA64PbjdxTUVEN2ppYnc/view?usp=sharing" >résumé</a>. If you like what you see, send over an
 			  <a target="_blank" href="mailto:james.milton@me.com" >email</a>.
-			</p>    
-			 
+			</p>
+
 			</br>
-			   
+
 			<p style="text-align: center;">
 			  <a target="_blank" href="https://www.instagram.com/james.jpg/" >instagram</a>,
 			  <a target="_blank" href="https://github.com/jmltn" >github</a>,
@@ -76,8 +76,8 @@ layout: home
 			  <a target="_blank" href="https://www.linkedin.com/in/jmltn/" >linkedin</a>,
 			  <a target="_blank" href="https://twitter.com/jmltn" >twitter</a>
 			</p>
-			    
-			
+
+
 		</div>
 	</div>
 	<div class="myText2">
@@ -90,15 +90,15 @@ layout: home
 </div>
 
 <script>
-	
+
 $(document).ready(function(){
-	
+
 	if (window.location.pathname == '{{ site.baseurl }}/') {
 		$("#smile").click(function(){
 	        $(".toggle").toggle("slow");
 	    });
     }
-    
+
 });
 
 function getPos(e) {
@@ -110,9 +110,9 @@ function getPos(e) {
 		deg = 2;
 		degX = ((x/midX)*deg)-deg;
 		degY = (((y/midY)*deg)-deg)*-1;
-		
-		
-		var table1 = document.querySelector("#mainSquare1");	
+
+
+		var table1 = document.querySelector("#mainSquare1");
 /*
 		table1.style.webkitTransform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
 		table1.style.MozTransform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
@@ -120,10 +120,10 @@ function getPos(e) {
 		table1.style.OTransform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
 */
 		table1.style.transform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
-		
-		    
-		
-		var table2 = document.querySelector("#mainSquare2");	
+
+
+
+		var table2 = document.querySelector("#mainSquare2");
 /*
 		table2.style.webkitTransform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
 		table2.style.MozTransform = "rotateY("+degX+"deg) rotateX("+degY+"deg)";
@@ -134,9 +134,9 @@ function getPos(e) {
 	}
 }
 
-	
-	
-	
+
+
+
 var prefix = '';
 var skills = [
     'Designer',
@@ -224,10 +224,10 @@ function render() {
     p1.textContent = kye.text;
     p1.appendChild(getRandomColoredString(kye.prefixP < prefix.length ?
         Math.min(tail, tail + kye.prefixP) :
-        Math.min(tail, skill.length - kye.skillP)));  
+        Math.min(tail, skill.length - kye.skillP)));
     setTimeout(render, timeout);
-    
-  
+
+
 }
 setTimeout(render, 500);
 </script>

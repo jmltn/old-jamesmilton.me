@@ -2,14 +2,14 @@
 layout: post
 title: RaspberryRev Design
 image: /images/2016/12/raspberry-rev/plate.png
-filter: fPictures fMiscellaneous
+filter: fMiscellaneous
 ---
 
-Going back to my Product Design A-Level, I wanted to make a iPhone controlled remote controlled car which could be built with Lego. 
+Going back to my Product Design A-Level, I wanted to make a iPhone controlled remote controlled car which could be built with Lego.
 
 As a part of this project, I made a logo for both the branding of the product as well as iPhone icon that went with it.
 
-Below is a time-lapse showing the process of making the licence place from start to finish. 
+Below is a time-lapse showing the process of making the licence place from start to finish.
 
 
 ![]({{ site.baseurl }}/images/2016/12/raspberry-rev/plate.png)
