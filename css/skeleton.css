@@ -132,6 +132,8 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-variant: normal;
   color: #25282b;
   -webkit-perspective: 150px; 
   perspective: 150px;
@@ -167,6 +169,10 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 p {
   margin-top: 0; }
 
+sup {
+  color: #00c266;
+  font-weight: 700;
+}
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -300,21 +306,7 @@ label > .label-body {
 
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-ul {
-  list-style: circle inside; }
-ol {
-  list-style: decimal inside; }
-ol, ul {
-  padding-left: 0;
-  margin-top: 0; }
-ul ul,
-ul ol,
-ol ol,
-ol ul {
-  margin: 1.5rem 0 1.5rem 3rem;
-  font-size: 90%; }
-li {
-  margin-bottom: 1rem; }
+
 
 
 /* Code
