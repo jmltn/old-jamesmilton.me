@@ -7,4 +7,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ![]({{ site.baseurl }}/images/2017/02/regent-court.jpg)
 
+<!--more-->
+
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.

@@ -18,8 +18,10 @@ title: Dissertation
 			</td>
 			<td class="secondColumn">
 				<h4>{{ post.title }} <span class="noFirstColumn"><h6>{{ post.date | date: "%B" }} {{ post.date | date: "%e" }}</h6></span> </h4>
-				<p>{{post.content}}</p>
-				<a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+				<p>{{ post.content  | truncatewords:50}}</p>
+				
+				<p><a href="{{ site.baseurl }}{{ post.url }}">Read more</a></p>
+				
 			</td>
 		</tr>	
 	{% endfor %}
