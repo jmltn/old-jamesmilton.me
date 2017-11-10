@@ -522,12 +522,12 @@ there.
 	}
 }
 
-.headshotMobile{
+img.headshotMobile{
   display: block;
   width: 80%;
   margin: auto;
 }
-.headshotDesktop{
+img.headshotDesktop{
   float: right;
   width: 30%;
   margin: auto;
