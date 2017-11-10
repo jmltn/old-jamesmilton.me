@@ -124,8 +124,8 @@ title: CSS stylesheet
 html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
-  font-size: 62.5%; 
-  height:100%; 
+  font-size: 62.5%;
+  height:100%;
   width:100%;}
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
@@ -135,9 +135,9 @@ body {
   font-style: normal;
   font-variant: normal;
   color: #25282b;
-  -webkit-perspective: 150px; 
+  -webkit-perspective: 150px;
   perspective: 150px;
-  height:100%; 
+  height:100%;
   width:100%;
   display: table;
   position: absolute;}
@@ -445,14 +445,14 @@ there.
 @media (max-width: 1000px) {
 	.myPicture1{
 	    display: none;
-	    
+
 	}
 }
 @media (max-width: 1000px) {
 	.myPicture2{
 	    width: 100%;
 	    height: 50%;
-	    
+
 	}
 }
 @media (min-width: 1000px) {
@@ -477,6 +477,7 @@ there.
 	width: 500px;
 	float: left;
 	padding: 20px;
+  padding: 20px 20px 0px 20px;
 }
 @media (max-width: 1000px) {
 	.myText1{
@@ -503,13 +504,13 @@ there.
 	animation: colorchange 10s infinite alternate;
     -webkit-animation: colorchange 10s infinite alternate;
 	margin: 0 auto;
-    
+
 }
 #mainSquare2{
     width: 800px;
     height: 500px;
 	margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
     display:none;
 }
 @media (max-width: 1000px) {
@@ -521,8 +522,17 @@ there.
 	}
 }
 
-
-
+#headshotMobile{
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+#headshotDesktop{
+  float: right;
+  width: 30%;
+  margin: auto;
+  padding: 20px;
+}
 
 
 
@@ -537,7 +547,7 @@ there.
 	text-align: center;
 	margin-top: 20px;
 }
-	
+
 /*
 #smile:hover {
 -webkit-animation:smile 0.5s infinite;
@@ -663,7 +673,7 @@ animation:smile 0.5s infinite;
 
 .card {
   border-top: black solid 8px;
-  width: 300px; 
+  width: 300px;
   margin: 0 auto;
 }
 
@@ -674,7 +684,7 @@ animation:smile 0.5s infinite;
 
 @media (max-width: 1000px) {
 	.card{
-		width: 100%; 
+		width: 100%;
 	}
 }
 
@@ -690,14 +700,14 @@ animation:smile 0.5s infinite;
   margin: 0 auto;
   text-align: center;
  }
- 
+
  /* clearfix */
 .cards:after {
   content: '';
   display: block;
   clear: both;
 }
- 
+
 
 
 .secondColumn p img, .postContent img{
@@ -735,7 +745,7 @@ input#quicksearch{
   background-color: transparent;
   border-radius: 4px;
   border: 1px solid #bbb;
-  box-sizing: border-box; 
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -754,17 +764,17 @@ input#quicksearch:focus{
 input#quicksearch::-webkit-input-placeholder {
 color: #555 !important;
 }
- 
+
 input#quicksearch:-moz-placeholder { /* Firefox 18- */
-color: #555 !important;  
+color: #555 !important;
 }
- 
+
 input#quicksearch::-moz-placeholder {  /* Firefox 19+ */
-color: #555 !important;  
+color: #555 !important;
 }
- 
-input#quicksearch:-ms-input-placeholder {  
-color: #555 !important;  
+
+input#quicksearch:-ms-input-placeholder {
+color: #555 !important;
 }
 
 
@@ -799,7 +809,7 @@ color: #555 !important;
 
 @media (max-width: 1000px) {
 	.secondColumn p img, .postContent img{
-		max-width: 90%; 
+		max-width: 90%;
 	}
 }
 
@@ -840,9 +850,9 @@ color: #555 !important;
 .position-em.date-as-calendar {
   display: inline-block;
   position: relative;
-  
-  width: 4em; 
-  height: 4em; 
+
+  width: 4em;
+  height: 4em;
 }
 .position-em.date-as-calendar .day,
 .position-em.date-as-calendar .month{
