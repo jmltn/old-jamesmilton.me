@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Adapting Diamond CAD model to work with Unity
+title: Adapting the Diamond's CAD model to work with Unity
 ---
 
 **Progress Update**
