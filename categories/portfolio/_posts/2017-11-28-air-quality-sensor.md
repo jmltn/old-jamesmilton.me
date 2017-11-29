@@ -2,7 +2,7 @@
 layout: post
 title: Arduino Air Quality Sensor
 image: /images/2017/11/arduino_airquality/airqualitybreadboard.png
-filter: fCode fVideo
+filter: fCode
 ---
 
 I made an Air Quality Sensor with information dashboard and mobile notification functionality.
