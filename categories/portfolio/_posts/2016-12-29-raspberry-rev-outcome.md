@@ -2,7 +2,7 @@
 layout: post
 title:  RaspberryRev RC Car - Physical Outcome
 image: /images/2016/12/raspberry-rev/IMG_1337-min.JPG
-filter:  fMiscellaneous fCode
+filter:  fMiscellaneous fCode fDesign
 ---
 
 *The content below briefly shows the process of how the car was developed. If you want to know more about this project, checkout the embedded pdf below of my project submission.*
@@ -140,5 +140,5 @@ I also created a website which is an online instruction manual on how to assembl
 
 <iframe src="https://docs.google.com/viewer?srcid=0BxnFEsoXA64PY004UkdzOFNuRjA&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="700"></iframe>
 
-    
+
 If you're interested in seeing how I designed the licence plate logo, visit [this post]({{ site.baseurl }}/raspberry-rev-design/).

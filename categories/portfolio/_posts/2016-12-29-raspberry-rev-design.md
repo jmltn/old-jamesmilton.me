@@ -2,7 +2,7 @@
 layout: post
 title: RaspberryRev RC Car - Design
 image: /images/2016/12/raspberry-rev/plate.png
-filter: fMiscellaneous
+filter: fMiscellaneous fDesign
 ---
 
 For my A-Level (aged 18) Product Design assignment, I wanted to make a iPhone controlled remote controlled car which could be built with Lego.

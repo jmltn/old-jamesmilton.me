@@ -2,7 +2,7 @@
 layout: post
 title: Modernest Style Lamp
 image: /images/2016/12/product-design-as/lamp.jpg
-filter:  fMiscellaneous
+filter:  fMiscellaneous fDesign
 ---
 One of my A-Level (aged 17) Product Design assignments was to make 'something (from scratch) inline with modernest style'.
 

@@ -2,7 +2,7 @@
 layout: post
 title: Refined Designs Website
 image: /refineddesign/images/splash.jpeg
-filter: fMiscellaneous
+filter: fMiscellaneous fDesign
 ---
 
 This is just a generic website I made for a 'Web and Internet Technology' module which I took during my first year of University. The website has been designed for a 'freelance digital designer' in mind.

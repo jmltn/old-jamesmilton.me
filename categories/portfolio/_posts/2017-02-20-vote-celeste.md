@@ -2,7 +2,7 @@
 layout: post
 title: Forget the rest, vote Celeste!
 image: /images//2017/03/voteceleste.png
-filter: fMiscellaneous
+filter: fMiscellaneous fDesign
 ---
 I made a campaign poster and website for my girlfriend, Celeste's campaign for Womens Officer - Sheffield University Students Union - 2017/2018
 
