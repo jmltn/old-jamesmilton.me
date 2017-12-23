@@ -675,11 +675,18 @@ animation:smile 0.5s infinite;
   border-top: black solid 8px;
   width: 300px;
   margin: 0 auto;
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
 }
 
 .card:hover{
   color: #818181;
   border-top: #818181 solid 8px;
+  opacity: 1;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
 @media (max-width: 1000px) {

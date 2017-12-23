@@ -1,15 +1,17 @@
 ---
 layout: post
-title: RaspberryRev Outcome
-image: /images/2016/12/raspberry-rev/Lego Holes 2-min.jpg
+title:  RaspberryRev RC Car - Physical Outcome
+image: /images/2016/12/raspberry-rev/IMG_1337-min.JPG
 filter:  fMiscellaneous fCode
 ---
 
 *The content below briefly shows the process of how the car was developed. If you want to know more about this project, checkout the embedded pdf below of my project submission.*
 
-Going back to my Product Design A-Level, I wanted to make a iPhone controlled remote controlled car which could be built with Lego.
+For my A-Level (aged 18) Product Design assignment, I wanted to make a iPhone controlled remote controlled car which could be built with Lego.
 
-I designed and made a chassis which holds the Raspberry Pi, motor controller unit, rechargeable battery for Raspberry Pi, and 9v battery for motors. As well as this, on the underside of the chassis is lego surface, which allows you to stick lego accessories onto the underside.
+Below is a brief overview of how the development of the project, with design and final outcome images as well as code snippets. The full development for this project can be found in the embedded pdf portfolio at the bottom of the page.
+
+I designed and 3D printed a chassis for the RC car which holds the Raspberry Pi, motor controller unit, rechargeable battery for Raspberry Pi, and 9v battery for motors. As well as this, on the underside of the chassis is lego surface, which allows you to stick lego accessories onto the underside.
 
 ![]({{ site.baseurl }}/images/2016/12/raspberry-rev/Lego Holes 2-min.jpg)
 
@@ -25,7 +27,9 @@ I designed and made a chassis which holds the Raspberry Pi, motor controller uni
 
 ![]({{ site.baseurl }}/images/2016/12/raspberry-rev/IMG_1337-min.JPG)
 
-##### The technical setup consisted of the following.
+---
+
+##### The technical setup
 
 1. Raspberry Pi Model B
 2. [Dual Bridge L298N Stepper Motor Driver Controller Board Module](http://www.ebay.co.uk/sch/items/?_nkw=l298n&_sacat=&_ex_kw=&_mPrRngCbx=1&_udlo=&_udhi=&_sop=12&_fpos=&_fspt=1&_sadis=&LH_CAds=&clk_rvr_id=1146263434105&rmvSB=true)
@@ -120,14 +124,21 @@ while True:
     print "Not a command"
 </code></pre>
 
+---
 
+##### Online Instruction Manual
+
+[![]({{ site.baseurl }}/images/2016/12/raspberry-rev/online-instruction-manual-demo.gif)]({{ site.baseurl }}/raspberryrev/){:target="_blank"}
+
+I also created a website which is an online instruction manual on how to assemble the lego parts. It can be found [{{ site.baseurl }}/raspberryrev/](here).
+
+---
+
+##### Assignment Portfolio
 
 *Please note that this pdf was converted from a PowerPoint presentation. Because of this, embedded videos which were once on the PowerPoint are not present on this pdf.*
 
 <iframe src="https://docs.google.com/viewer?srcid=0BxnFEsoXA64PY004UkdzOFNuRjA&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="700"></iframe>
 
-
-I also created a website which is an online instruction manual on how to assemble the lego parts. It can be found at [jamesmilton.me/raspberryrev/]({{ site.baseurl }}/raspberryrev/).
-
-
-If you're interested in seeing how I designed the licence plate logo, visit [this post]({{ site.baseurl }}/2016/12/raspberry-rev-design/).
+    
+If you're interested in seeing how I designed the licence plate logo, visit [this post]({{ site.baseurl }}/raspberry-rev-design/).

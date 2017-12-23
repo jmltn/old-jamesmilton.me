@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dissertation
+title: Dissertation - Smart Building Data Visualisation with VR
 image: /images/2017/08/thediamond.jpg
 filter: fCode
 ---

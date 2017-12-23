@@ -4,6 +4,9 @@ title: Jeff as a Mosaic
 image: /images/2017/02/mosaic-jeff/5-min.png
 filter: fMiscellaneous
 ---
+
+Fancied a new phone wallpaper, so had a doodle on Photoshop.
+
 <!---
 ![]({{ site.baseurl }}/images/2017/02/mosaic-jeff/1-min.png)
 -->

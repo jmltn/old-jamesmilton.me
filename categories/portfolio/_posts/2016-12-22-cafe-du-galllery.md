@@ -1,12 +1,14 @@
 ---
 layout: post
-title: Cafe Du Gallery / The Gallery Cafe
+title: Café Du Gallery
 image: /cafedugallery/images/menu_image.png
 filter: fMiscellaneous
 ---
 
-This is a website I made for a local cafe. The restaurant has since changed hands so the website no longer exists.I'm now hosting it myself for demonstrational purposes.
+This is one of the first websites and fully designed and developed. It was for a restaurant which has since changed ownership so the website no longer exists. I'm now hosting it myself for demonstrational purposes.
 
 [![]({{ site.baseurl }}/images/2016/12/cafedugallery.png)](../cafedugallery/){:target="_blank"}
+
+[![]({{ site.baseurl }}/cafedugallery/images/menu_image.png)](../cafedugallery/){:target="_blank"}
 
 [Visit the site](../cafedugallery/){:target="_blank"}.
