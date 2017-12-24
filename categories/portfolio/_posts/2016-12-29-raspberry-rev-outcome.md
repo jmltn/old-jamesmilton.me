@@ -130,7 +130,7 @@ while True:
 
 [![]({{ site.baseurl }}/images/2016/12/raspberry-rev/online-instruction-manual-demo.gif)]({{ site.baseurl }}/raspberryrev/){:target="_blank"}
 
-I also created a website which is an online instruction manual on how to assemble the lego parts. It can be found [{{ site.baseurl }}/raspberryrev/](here).
+I also created a website which is an online instruction manual on how to assemble the lego parts. It can be found [here]({{site.baseurl}}/raspberryrev/)
 
 ---
 
