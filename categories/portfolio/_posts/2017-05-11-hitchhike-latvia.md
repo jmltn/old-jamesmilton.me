@@ -5,9 +5,9 @@ image: /images/2017/05/bummit-front.JPG
 filter: fVideo
 ---
 
-April 2017, I went hitchhiking with my two friends, Chris and Caitlin.
+April 2017, I went hitchhiking across Eurpose with my two friends, Chris and Caitlin.
 
-We hitchhiked 23 different rides, covering 1860 miles, across Europe to Riga, Latvia and raised £805 for charity on the way.
+We hitchhiked in 23 different rides, covering 1860 miles, from Sheffield, United Kingdom to Riga, Latvia. We raised £805 for charity along the way.
 
 Below is a playlist of footage from the 9 days we were travelling, starting with the summary video.
 
