@@ -55,11 +55,36 @@
 
 	    <div class="postContent">
 		    {{ content }}
-		</div>
+		  </div>
 
 	    {% include analytics.html %}
 	    <footer style="border-top: 1px solid #E1E1E1">
+
+        <div class="PageNavigation">
+          {% for post in site.categories.dissertation %}
+              {% if post.url == page.url %}
+                  {% assign post_index0 = forloop.index0 %}
+                  {% assign post_index1 = forloop.index %}
+              {% endif %}
+          {% endfor %}
+          {% for post in site.categories.dissertation %}
+              {% if post_index0 == forloop.index %}
+                  {% assign next_post = post %}
+              {% endif %}
+              {% if post_index1 == forloop.index0 %}
+                  {% assign prev_post = post %}
+              {% endif %}
+          {% endfor %}
+          {% if next_post %}
+              <a href="{{ next_post.url }}">Next Post <strong>&laquo;</strong> {{next_post.title}}</a>
+          {% endif %}
+          {% if prev_post %}
+              <a class="next" href="{{ prev_post.url }}">Previous Post <strong>&raquo;</strong> {{ prev_post.title }} </a>
+          {% endif %}
+        </div>
+
 		    </br>
+        </br>
 			<p>Written on {{ page.date | date: "%B %e, %Y" }}</p>
 		    <p>© {{site.time | date:'%Y'}} James Milton, unless otherwise noted.</p>
 		</footer>

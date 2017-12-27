@@ -668,7 +668,13 @@ animation:smile 0.5s infinite;
     margin-top: 10px;
 }
 
+.PageNavigation a {
+  float: left;
+}
 
+.PageNavigation .next {
+  float: right
+}
 
 
 .card {
