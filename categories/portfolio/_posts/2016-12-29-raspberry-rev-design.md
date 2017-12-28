@@ -5,9 +5,9 @@ image: /images/2016/12/raspberry-rev/plate.png
 filter: fMiscellaneous fDesign
 ---
 
-For my A-Level (aged 18) Product Design assignment, I wanted to make a iPhone controlled remote controlled car which could be built with Lego.
+For my A-Level (aged 18) Product Design assignment, I wanted to make a iPhone controlled remote controlled car which could be built with Lego. As a part of this project, I made a logo with Adobe Photoshop for both the branding of the product as well as iPhone icon that went with it.
 
-As a part of this project, I made a logo with Adobe Photoshop for both the branding of the product as well as iPhone icon that went with it.
+This project was awarded an A*.
 
 Below are images of the final outcomes and a time-lapse showing the process of making the licence place from start to finish.
 

@@ -7,6 +7,8 @@ filter: fMiscellaneous fDesign
 
 For my GCSE (aged 16) Graphics coursework, I created an 'Activity Games' pack, inspired by the then current 2012 London Olympics. Below are some images of the final outcome. The full development for this project can be found in the embedded pdf portfolio below.
 
+This project was awarded an A*.
+
 ![]({{ site.baseurl }}/images/2016/12/gcse-graphics/P1050279-min.JPG)
 
 ![]({{ site.baseurl }}/images/2016/12/gcse-graphics/P1050278-min.JPG)

@@ -7,9 +7,11 @@ filter:  fMiscellaneous fCode fDesign
 
 *The content below briefly shows the process of how the car was developed. If you want to know more about this project, checkout the embedded pdf below of my project submission.*
 
-For my A-Level (aged 18) Product Design assignment, I wanted to make a iPhone controlled remote controlled car which could be built with Lego.
+For my A-Level (aged 18) Product Design assignment, I wanted to make a iPhone controlled remote controlled car which could be built with Lego. Below is a brief overview of how the development of the project, with design and final outcome images as well as code snippets. The full development for this project can be found in the embedded pdf portfolio at the bottom of the page.
 
-Below is a brief overview of how the development of the project, with design and final outcome images as well as code snippets. The full development for this project can be found in the embedded pdf portfolio at the bottom of the page.
+This project was awarded an A*.
+
+---
 
 I designed and 3D printed a chassis for the RC car which holds the Raspberry Pi, motor controller unit, rechargeable battery for Raspberry Pi, and 9v battery for motors. As well as this, on the underside of the chassis is lego surface, which allows you to stick lego accessories onto the underside.
 
