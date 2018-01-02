@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Groove Is In Budapest
-image: /images//2017/01/budapest-celeste.JPG
+image: /images/2017/01/budapest-celeste.JPG
 filter: fVideo
 ---
 
