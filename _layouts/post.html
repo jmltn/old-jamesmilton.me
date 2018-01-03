@@ -75,23 +75,23 @@
 		
 	  {% for post in site.categories.portfolio %}
               {% if post.url == page.url %}
-                  {% assign post_index0 = forloop.index0 %}
-                  {% assign post_index1 = forloop.index %}
+                  {% assign post_index0a = forloop.index0 %}
+                  {% assign post_index1a = forloop.index %}
               {% endif %}
           {% endfor %}
           {% for post in site.categories.portfolio %}
-              {% if post_index0 == forloop.index %}
-                  {% assign next_post = post %}
+              {% if post_index0a == forloop.index %}
+                  {% assign next_posta = post %}
               {% endif %}
-              {% if post_index1 == forloop.index0 %}
-                  {% assign prev_post = post %}
+              {% if post_index1a == forloop.index0 %}
+                  {% assign prev_posta = post %}
               {% endif %}
           {% endfor %}
-          {% if next_post %}
-              <a href="{{ next_post.url }}">Next Post <strong>&laquo;</strong> {{next_post.title}}</a>
+          {% if next_posta %}
+              <a href="{{ next_posta.url }}">Next Post <strong>&laquo;</strong> {{next_posta.title}}</a>
           {% endif %}
-          {% if prev_post %}
-              <a class="next" href="{{ prev_post.url }}">Previous Post <strong>&raquo;</strong> {{ prev_post.title }} </a>
+          {% if prev_posta %}
+              <a class="next" href="{{ prev_posta.url }}">Previous Post <strong>&raquo;</strong> {{ prev_posta.title }} </a>
           {% endif %}
 		
 		
