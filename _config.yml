@@ -11,6 +11,20 @@ moto: Designer & Developer
 # Short bio or description
 description: James Milton is a designer and developer living in Sheffield, United Kingdom. I’m currently completing my dissertation for my final year at The University of Sheffield, where I am studying Computer Science. Previously, I worked as a Software Engineer Intern at Rolls-Royce.
 
+title: James Milton, Designer & Developer
+author: James Milton
+twitter:
+  username: jmltn
+logo: /images/misc/headshot.jpg
+
+social:
+  name: James Milton
+  links:
+    - https://twitter.com/jmltn
+    - https://www.facebook.com/jmltn.1
+    - https://www.linkedin.com/in/jmltn/
+    - https://plus.google.com/102564677210975852484
+    - https://github.com/jmltn
 
 #
 # Flags below are optional
@@ -45,7 +59,7 @@ google_analytics: UA-47742897-8
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: http://jamesmilton.me
+url: https://jamesmilton.me
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -77,9 +91,10 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-seo-tag
 
 # Exclude these files from your production _site
 exclude:

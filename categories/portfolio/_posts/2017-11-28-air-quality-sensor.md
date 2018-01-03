@@ -17,7 +17,7 @@ So on that dark note... how do we get better air?!
 Air pollution sensors can help individuals control their environments through increased awareness of what's in the air around them. With this awareness, individuals can change their day-to-day life in order to increase the quality of life and overall health of individuals.
 
 #### Design
-<img src="{{ site.baseurl }}/images/2017/11/arduino_airquality/airqualityraw.jpg" width="80%">
+<img src="{{ site.baseurl }}/images/2017/11/arduino_airquality/airqualityraw.jpg" alt="Arduino air quality raw image" width="80%">
 
 1. **Arduino ESP32**
   Low-power system on a chip (SoC) series with Wi-Fi & dual-mode Bluetooth capabilities. Enginereered for IoT devices.
@@ -47,9 +47,9 @@ Air pollution sensors can help individuals control their environments through in
 **Schematics**      
 Drawings courtesy of Hamish Cunningham and Gareth Coleman.
 
-<img src="{{ site.baseurl }}/images/2017/11/arduino_airquality/airqualitybreadboard.png" width="80%">
+<img src="{{ site.baseurl }}/images/2017/11/arduino_airquality/airqualitybreadboard.png" alt="Arduino air quality breadboard" width="80%">
 
-<img src="{{ site.baseurl }}/images/2017/11/arduino_airquality/airqualityschematic.png" width="80%">
+<img src="{{ site.baseurl }}/images/2017/11/arduino_airquality/airqualityschematic.png" alt="Arduino air quality schematic" width="80%">
 
 
 #### Capabilities
@@ -93,11 +93,11 @@ The second applet sends me a [notification](#notifications) to my phone if the g
 
 <table width="70%" border="0">
   <tr>
-    <td colspan="2"><img src="{{ site.baseurl }}/images/2017/11/arduino_airquality/airqualityifttt.png" width="100%"></td>
+    <td colspan="2"><img src="{{ site.baseurl }}/images/2017/11/arduino_airquality/airqualityifttt.png" alt="adafruit with ifttt" width="100%"></td>
   </tr>
   <tr>
-    <td><img src="{{ site.baseurl }}/images/2017/11/arduino_airquality/airqualityiftttdust.png"></td>
-    <td><img src="{{ site.baseurl }}/images/2017/11/arduino_airquality/airqualityiftttgas.png"></td>
+    <td><img src="{{ site.baseurl }}/images/2017/11/arduino_airquality/airqualityiftttdust.png" alt="adafruit with ifttt dust sensor"></td>
+    <td><img src="{{ site.baseurl }}/images/2017/11/arduino_airquality/airqualityiftttgas.png" alt="adafruit with ifttt gas sensor"></td>
   </tr>
 </table>
 
@@ -106,7 +106,7 @@ The second applet sends me a [notification](#notifications) to my phone if the g
 **Dashboard**
 <table width="100%" border="0">
   <tr>
-    <td><img src="{{ site.baseurl }}/images/2017/11/arduino_airquality/airqualityiodust.png"></td>
+    <td><img src="{{ site.baseurl }}/images/2017/11/arduino_airquality/airqualityiodust.png" alt="adafruit gas and dust sensor"></td>
   </tr>
   <tr>
     <td>
@@ -126,8 +126,8 @@ The second applet sends me a [notification](#notifications) to my phone if the g
 **Notifications**
 <table width="100%" border="0">
   <tr>
-    <td><img src="{{ site.baseurl }}/images/2017/11/arduino_airquality/airqualityiphonedust.png"></td>
-    <td><img src="{{ site.baseurl }}/images/2017/11/arduino_airquality/airqualityiphonegas.png"></td>
+    <td><img src="{{ site.baseurl }}/images/2017/11/arduino_airquality/airqualityiphonedust.png" alt="adafruit with ifttt dust sensor notification"></td>
+    <td><img src="{{ site.baseurl }}/images/2017/11/arduino_airquality/airqualityiphonegas.png" alt="adafruit with ifttt gas sensor notification"></td>
   </tr>
   <tr>
     <td>Notification from IFTTT when a high reading of dust is detected.</td>

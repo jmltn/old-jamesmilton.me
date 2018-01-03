@@ -8,6 +8,6 @@ I made a campaign poster and website for my girlfriend, Celeste's campaign for W
 
 SHE WON! 🎉
 
-[![]({{ site.baseurl }}/images//2017/03/voteceleste.png)](http://vote.celestejones.co.uk){:target="_blank"}
+[![forget the rest vote celeste university of sheffield womens officer campaign]({{ site.baseurl }}/images//2017/03/voteceleste.png)](http://vote.celestejones.co.uk){:target="_blank"}
 
 [Visit the site](http://vote.celestejones.co.uk){:target="_blank"}.

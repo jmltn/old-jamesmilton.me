@@ -2,6 +2,7 @@
 layout: default
 permalink: /dissertation/
 title: Final Year Dissertation
+description: This is my blog for my final year dissertation. I will be discussing, researching and implementing a project based on Virtual and/or Augmented Reality Views on a Building, supervised by Dr Ramsay Taylor.
 ---
 
 <p>For my final year dissertation, I will be discussing, researching and implementing a project based on <i>Virtual and/or Augmented Reality Views on a Building</i>, supervised by <a target="_blank" href="https://www.sheffield.ac.uk/dcs/people/academic/rtaylor">Dr Ramsay Taylor</a>. I have <span id="countdown"></span> until it's due...</p>
@@ -37,14 +38,14 @@ title: Final Year Dissertation
 
 
 <script>
-//scrolTo	
+//scrolTo
 $('[href^="#"]').off().on('click', function (e) {
     if ($(this).attr('href') != '#') {
         e.preventDefault();
         $('body').animate({scrollTop: $($(this).attr('href')).offset().top}, 500);
     }
-});	
-	
+});
+
 //countdown
 // Set the date we're counting down to
 var countDownDate = new Date("May 1, 2018 12:00:00").getTime();

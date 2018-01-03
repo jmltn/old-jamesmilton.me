@@ -11,6 +11,6 @@ This assignment was awarded a first class mark (73%).
 
 The website also involves a fun 2D JavaScript game that I made, which can be found [here]({{site.baseurl}}/refineddesign/demo.html){:target="_blank"}.
 
-[![]({{ site.baseurl }}/refineddesign/images/splash.jpeg)](../refineddesign/){:target="_blank"}
+[![refineddesign website screenshot]({{ site.baseurl }}/refineddesign/images/splash.jpeg)](../refineddesign/){:target="_blank"}
 
 [Visit the site](../refineddesign/){:target="_blank"}.

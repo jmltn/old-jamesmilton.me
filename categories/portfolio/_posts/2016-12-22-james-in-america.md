@@ -9,7 +9,7 @@ In 2013 my family and I embarked on a road trip coast-to-coast across the United
 
  This was once a dynamic website, but since the page is no longer being updated, I converted it to a static page using the [GNU wget](https://www.gnu.org/software/wget/){:target="_blank"} from the Free Software Foundation.
 
-[![]({{ site.baseurl }}/images/2016/12/jamesinamerica-com.png)](../jamesinamerica/){:target="_blank"}
+[![james in america website screenshot]({{ site.baseurl }}/images/2016/12/jamesinamerica-com.png)](../jamesinamerica/){:target="_blank"}
 
 [Visit the site](../jamesinamerica/){:target="_blank"}.
 

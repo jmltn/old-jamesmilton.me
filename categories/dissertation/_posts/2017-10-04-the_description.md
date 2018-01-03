@@ -36,7 +36,7 @@ With this service, it will be a lot easier to recognise faults within the system
 Unity 3D game engine will be used as the foundation for combining the data from the database and the 3D BIM models, to create the scenes that the user will experience through the virtual reality headset.
 Unity 3D is the most ideal platform to build this system with, as it supports 3D graphics, drag and drop functionality and C** scripting. It is also cross-platform compatible, meaning any scene created within Unity can be exported to work on many platforms like iOS, Android and most importantly, Virtual Reality platforms like the Oculus Rift [3].
 
-<img src="{{ site.baseurl }}/images/2017/10/simpleflow.png" style="width: 50%;"/>
+<img src="{{ site.baseurl }}/images/2017/10/simpleflow.png" alt="simple flow diagram" style="width: 50%;"/>
 
 Figure (1.1): A simple diagram demonstrating the foundation of this project as to how the information is going to flow from start to finish.
 
