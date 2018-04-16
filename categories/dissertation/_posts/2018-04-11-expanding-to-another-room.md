@@ -3,7 +3,6 @@ layout: post
 title: Expanding the system to work in an another room
 ---
 
-**Progress Update**
 I have now successfully integrated temperature, CO2 and air-conditioning data from the building’s BMS database to a second room in the Diamond. This second room (computer room 2) is a square share and has many more sensors.
 
 The challenge with doing this was figure out how to implement the system to work in a room with only two sensors, but with n sensors. 

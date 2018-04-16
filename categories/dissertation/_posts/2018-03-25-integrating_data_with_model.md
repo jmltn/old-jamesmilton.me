@@ -3,7 +3,6 @@ layout: post
 title: Integrating BMS data with the Unity Model
 ---
 
-**Progress Update**
 I have now successfully integrating temperature, CO2 and air-conditioning data from the building’s BMS database with the Unity model.
 
 As displayed in the video below, this particular room in the Diamond has two sensors placed at either end of the room. Therefore, we will have two readings of the room’s temperature and CO2 and this system needs to effectively visualise the differences in the readings.
