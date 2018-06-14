@@ -20,4 +20,4 @@ Below are some images of the final outcome. The full development for this projec
 
 ![product design a level metal lamp]({{ site.baseurl }}/images/2016/12/product-design-as/lamp5.JPG)
 
-<iframe src="https://docs.google.com/viewer?srcid=1Tqgnk-JisbBro5NhxlwJm4l7vBBSkUjy&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="700"></iframe>
+<iframe src="https://drive.google.com/file/d/1kzMaNZZnFb8XBOhwtZsXrkTxK109FiEu/preview" width="100%" height="700"></iframe>
