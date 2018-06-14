@@ -140,7 +140,6 @@ I also created a website which is an online instruction manual on how to assembl
 
 *Please note that this pdf was converted from a PowerPoint presentation. Because of this, embedded videos which were once on the PowerPoint are not present on this pdf.*
 
-<iframe src="https://docs.google.com/viewer?srcid=0BxnFEsoXA64PY004UkdzOFNuRjA&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="700"></iframe>
-
+<iframe src="https://drive.google.com/file/d/12PGgeOfXM18eEWkQ1XWbkHWc1_-TlZvA/preview" width="100%" height="700"></iframe>
 
 If you're interested in seeing how I designed the licence plate logo, visit [this post]({{ site.baseurl }}/raspberry-rev-design/).
