@@ -5,8 +5,13 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Classic Walk In Service. Also Appointments On Thursdays Only. Appointments will be an extra £2.00 per service. Please Call 01536 735006 to book.">
+    <meta name="author" content="Thrapston Barbershop">
+    <meta property="og:url"           content="https://www.jamesmilton.me" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Thrapston Barbershop" />
+    <meta property="og:description"   content="Classic Walk In Service. Also Appointments On Thursdays Only. Appointments will be an extra £2.00 per service. Please Call 01536 735006 to book." />
+    <meta property="og:image"         content="img/fav/android-icon-192x192.png" />
 
     <title>Thrapston Barbershop</title>
 
@@ -47,6 +52,19 @@
 
   <body id="page-top">
 
+
+    <!-- Facebook JavaScript SDK  -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.1';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+
+
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
@@ -68,6 +86,9 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact Us</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact"></a>
+            </li>
           </ul>
         </div>
       </div>
@@ -84,20 +105,20 @@
       </div>
     </header>
 
-    <section class="bg-primary" id="about">
+    <section id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">Welcome to RJ Barbers</h2>
+            <h2 class="section-heading">Welcome to Thrapston Barbershop</h2>
             <hr class="light my-4">
-            <p class="text-faded mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services"><i class="fa fa-cut"></i> Services & Pricing</a>
+            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services"><i class="fa fa-cut"></i> Services & Pricing</a>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="services">
+    <section class="bg-primary text-light" id="services">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -150,9 +171,24 @@
           </div>
         </div>
       </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#instagallery"><i class="fa fa-cut"></i>Gallery</a>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section id='instagallery'></section>
+    <section id='instagallery'>
+      <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Gallery <a href="https://www.instagram.com/thrapstonbarbershop/">@thrapstonbarbershop</a></h2>
+          <hr class="my-4">
+        </div>
+      </div>
+    </div></section>
 
     <section id="contact">
       <div class="container">
@@ -164,7 +200,7 @@
 
         <div class="row">
 
-          <div class="col-lg-6 mx-auto text-center">
+          <div class="col-lg-4 mx-auto text-center">
             <div class="row">
               <div class="col-lg-12 mx-auto text-center">
                 <h2 class="section-heading">Contact Us</h2>
@@ -190,20 +226,20 @@
           </div>
 
 
-          <div class="col-lg-6 mx-auto text-center">
+          <div class="col-lg-4 mx-auto text-center">
             <div class="row">
               <div class="col-lg-12 mx-auto text-center">
                 <h2 class="section-heading">Opening Times</h2>
                 <hr class="my-4">
               </div>
               <div class="col-lg-12 mr-auto">
-                <p>Monday: <span class="spanStyle">Closed</span></p>
-                <p>Tuesday: <span class="spanStyle">10am - 7pm</span></p>
-                <p>Wednesday: <span class="spanStyle">10am - 7pm</span></p>
-                <p>Thursday: <span class="spanStyle">10am - 7pm</span></p>
-                <p>Friday: <span class="spanStyle">10am - 7pm</span></p>
-                <p>Saturday: <span class="spanStyle">9am - 3pm</span></p>
-                <p>Sunday: <span class="spanStyle">Closed</span></p>
+                <p>Monday: <span class="spanStyleOpening">Closed</span></p>
+                <p>Tuesday: <span class="spanStyleOpening">10am - 7pm</span></p>
+                <p>Wednesday: <span class="spanStyleOpening">10am - 7pm</span></p>
+                <p>Thursday: <span class="spanStyleOpening">10am - 7pm</span></p>
+                <p>Friday: <span class="spanStyleOpening">10am - 7pm</span></p>
+                <p>Saturday: <span class="spanStyleOpening">9am - 3pm</span></p>
+                <p>Sunday: <span class="spanStyleOpening">Closed</span></p>
               </div>
             </div>
           </div>
@@ -220,8 +256,15 @@
     </section>
 
     <section style="padding: 3rem 0;" class="bg-dark text-white">
-      <div class="container text-center">
-        <p>© 2018 RJ Barbers | Website by <a href="https://jamesmilton.me">jamesmilton.me</a></p>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mx-auto text-center">
+            <div class="fb-like" data-href="https://www.facebook.com/thrapstonbarbershop/" data-layout="standard" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
+          </div>
+          <div class="col-lg-6 mx-auto text-center">
+            <p>© 2018 RJ Barbers | Website by <a href="https://jamesmilton.me">jamesmilton.me</a></p>
+          </div>
+        </div>
       </div>
     </section>
 

@@ -2,16 +2,13 @@
   "use strict"; // Start of use strict
 
   //Instagram gallery
-  var accessToken = '25523369.1677ed0.441e690b31c941f18150157f6ce761cf';
+  var accessToken = '6004500230.1677ed0.20f34704aa5a42f195b7cf3c0cb4f076';
   $.getJSON('https://api.instagram.com/v1/users/self/media/recent/?access_token='+accessToken+'&callback=?',function (insta) {
     $.each(insta.data,function (photos,src) {
       if ( photos === 12 ) { return false; }
-      $('<a href="'+src.link+'" class="post">'+
+      $('<a href="'+src.link+'" class="post" rel="external nofollow">'+
         '<div class="image" style="background-image:url('+src.images.standard_resolution.url+');"></div>'+
-        '<ul>'+
-        '<li><i class="fa fa-heart"></i> '+src.likes.count+'</li>'+
-        '<li><i class="fa fa-comment"></i> '+src.comments.count+'</li>'+
-        '</ul></a>').appendTo('#instagallery');
+        '</a>').appendTo('#instagallery');
     });
   });
 
