@@ -287,6 +287,11 @@ header.masthead p {
   color: #68728A;
 }
 
+.fb-like{
+  overflow: hidden;
+  padding-bottom: 3px;
+}
+
 .service-box {
   max-width: 400px;
 }
