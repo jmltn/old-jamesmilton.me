@@ -225,6 +225,10 @@ header.masthead p {
   }
 }
 
+.arrowButton{
+  font-size: 35px;
+}
+
 /* Instgram gallery */
 #instagallery {
   position: relative;
@@ -281,7 +285,7 @@ header.masthead p {
 }
 
 .spanStyle{
-  color: #000;
+  color: rgba(255, 255, 255, 0.7);
 }
 .spanStyleOpening{
   color: #68728A;
