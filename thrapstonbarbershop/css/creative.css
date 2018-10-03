@@ -230,14 +230,17 @@ header.masthead p {
 }
 
 /* Instgram gallery */
-#instagallery {
+#instagallery{
+  padding-bottom: 0;
+}
+
+#instgram {
   position: relative;
   width: 100vw;
   display: flex;
   flex-flow: row wrap;
-  padding: 4rem 0;
 }
-#instagallery .post {
+#instgram .post {
   position: relative;
   width: 25vw;
   height: 25vw;
@@ -245,7 +248,7 @@ header.masthead p {
   display: block;
   overflow: hidden;
 }
-#instagallery .post .image {
+#instgram .post .image {
   position: absolute;
   top: 0;
   left: 0;
@@ -255,7 +258,7 @@ header.masthead p {
   background-size: cover;
   transition: all .15s ease-in-out;
 }
-#instagallery .post ul {
+#instgram .post ul {
   position: absolute;
   top: 0;
   left: 0;
@@ -270,16 +273,16 @@ header.masthead p {
   transition: all .15s ease-in-out;
   color: #FFF;
 }
-#instagallery .post ul li {
+#instgram .post ul li {
   text-align: center;
   line-height: 50px;
 }
-#instagallery .post:hover .image {
+#instgram .post:hover .image {
   opacity: .5;
   -webkit-transform: scale(1.15) translate3d(0, 0, 0);
           transform: scale(1.15) translate3d(0, 0, 0);
 }
-#instagallery .post:hover ul {
+#instgram .post:hover ul {
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }

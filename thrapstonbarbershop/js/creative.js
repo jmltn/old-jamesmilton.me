@@ -8,7 +8,7 @@
       if ( photos === 12 ) { return false; }
       $('<a href="'+src.link+'" class="post" rel="external nofollow">'+
         '<div class="image" style="background-image:url('+src.images.standard_resolution.url+');"></div>'+
-        '</a>').appendTo('#instagallery');
+        '</a>').appendTo('#instgram');
     });
   });
 
