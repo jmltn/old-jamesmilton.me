@@ -486,7 +486,17 @@ there.
 }
 
 
+.clickIcon{
+  height: 20px;
+  position:absolute;
+  left:72%;
+  transform: translateX(-72%);
+  -webkit-transform: translateX(-72%);
 
+  top:50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
 
 
 .myText2 {
