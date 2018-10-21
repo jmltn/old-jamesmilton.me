@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Diamond Sensor Farm
+title: Diamond Sensor Farm Concepts
 image: /images/2018/10/all.png
 filter: fMiscellaneous fDesign
 ---

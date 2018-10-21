@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Diamond Facade Visualisation
+title: Diamond Facade VR Visualisation
 image: /images/2018/10/diamondfacade.png
 filter: fMiscellaneous fDesign fVideo
 ---
