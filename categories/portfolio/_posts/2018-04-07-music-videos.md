@@ -14,7 +14,7 @@ Music courtesy of Deee-Lite, Groove Is In The Heart.
 ---
 
 
-##### PAPER PLANES (WARSAW REMIX)
+##### PAPER PLANES (WARSZAWA REMIX)
 April 2018 - Warsaw, Poland 🇵🇱.  
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src="https://drive.google.com/file/d/1c5AZRUbdG3p9DKbsoMRTbYVjGdVGVGuP/preview" frameborder='0' allowfullscreen></iframe></div>
