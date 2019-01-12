@@ -51,7 +51,7 @@
       {% if page.title=="BSc Computer Science Final Year Dissertation 🖥"  or page.title=="MA Design Specialist Project 🎨" %}
         {{ page.title }}
       {% else %}
-        {{ site.moto }}
+        <h6 style="text-align: left; height:3rem" id="para1" ></h6>
       {% endif %}
     </h6>
 	    {{ content }}
@@ -59,3 +59,99 @@
 	</div>
   </body>
 </html>
+
+<script>
+var prefix = '';
+var skills = [
+    'Designer',
+    'Developer'
+].map(function (s) { return s; });
+var delay = 10;
+var step = 1;
+var tail = 5;
+var timeout = 75;
+var p1 = document.getElementById('para1');
+var colors = [
+    "rgb(178,225,171)",
+    "rgb(157,201,150)",
+    "rgb(71,154,118)",
+    "rgb(77,184,154)",
+    "rgb(50,159,156)"
+];
+function getRandomColor() {
+    return colors[Math.floor(Math.random() * colors.length)];
+}
+function getRandomChar() {
+    return String.fromCharCode(Math.random() * (127 - 33) + 33);
+}
+function getRandomColoredString(n) {
+    var fragment = document.createDocumentFragment();
+    for (var i = 0; i < n; i++) {
+        var char = document.createElement('span');
+        char.textContent = getRandomChar();
+        char.style.color = getRandomColor();
+        fragment.appendChild(char);
+    }
+    return fragment;
+}
+/** Global State */
+var kye = {
+    text: '',
+    prefixP: -tail,
+    skillI: 0,
+    skillP: 0,
+    direction: 'forward',
+    delay: delay,
+    step: step,
+};
+function render() {
+    var skill = skills[kye.skillI];
+    if (kye.step) {
+        kye.step--;
+    }
+    else {
+        kye.step = step;
+        if (kye.prefixP < prefix.length) {
+            if (kye.prefixP >= 0) {
+                kye.text += prefix[kye.prefixP];
+            }
+            kye.prefixP++;
+        }
+        else {
+            if (kye.direction === 'forward') {
+                if (kye.skillP < skill.length) {
+                    kye.text += skill[kye.skillP];
+                    kye.skillP++;
+                }
+                else {
+                    if (kye.delay) {
+                        kye.delay--;
+                    }
+                    else {
+                        kye.direction = 'backward';
+                        kye.delay = delay;
+                    }
+                }
+            }
+            else {
+                if (kye.skillP > 0) {
+                    kye.text = kye.text.slice(0, -1);
+                    kye.skillP--;
+                }
+                else {
+                    kye.skillI = (kye.skillI + 1) % skills.length;
+                    kye.direction = 'forward';
+                }
+            }
+        }
+    }
+    p1.textContent = kye.text;
+    p1.appendChild(getRandomColoredString(kye.prefixP < prefix.length ?
+        Math.min(tail, tail + kye.prefixP) :
+        Math.min(tail, skill.length - kye.skillP)));
+    setTimeout(render, timeout);
+
+
+}
+setTimeout(render, 500);
+</script>
