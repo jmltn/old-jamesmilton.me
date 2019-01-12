@@ -24,12 +24,7 @@ My email: [james.milton@me.com](mailto:james.milton@me.com)
 ##### Step 2 - If you can not get hold of me
 Mother's phone: +44 7 963 957 001
 
-Mother's email: [josiemilton19@gmail.com](mailto:josiemilton19@gmail.com)
-
-Girlfriend's phone: +44 7715 470 712
-
-Girlfriend's email: [celeste.ava.jones@gmail.com](mailto:celeste.ava.jones@gmail.com)
-
+Mother's email: [josiegarnham1@gmail.com](mailto:josiegarnham1@gmail.com)
 ---
 
 Again, thank you so much for your help.
