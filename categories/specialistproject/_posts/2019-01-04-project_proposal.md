@@ -3,13 +3,13 @@ layout: post
 title: Project Proposal
 ---
 
-##### Title: Using information design principles to improve sleep. An interactive motion graphic that informs and advises on the physiological and psychological effects that smartphones can have on sleep quality.   
-###### Author: James Milton    
-###### *Supervisor:* Professor Stephen Westland    
+###### Title: Using information design principles to improve sleep. An interactive motion graphic that informs and advises on the physiological and psychological effects that smartphones can have on sleep quality.   
+**Author: James Milton**    
+***Supervisor:* Professor Stephen Westland**    
 
-#### Contextual Background  
+##### Contextual Background  
 
-##### Overview
+###### Overview
 
 According to the NHS UK (2018), sleep deprivation can have profound consequences on an individual’s physical health. It can cause an increased risk of serious medical conditions, such as obesity, heart disease, diabetes and shorten overall life expectancy (Touitou et al., 2017). Most people need around 8 hours of good-quality sleep a night to function properly (NHS UK, 2018). However, a survey by The Sleep Council (2017) showed that almost 74% of British people sleep less than seven hours per night, while the number of people who said they get less than five hours a night has grown from 7% in 2013 to 12% in 2017. Those surveyed were asked the reason for their poor night sleep and their top four responses were stress, partner disturbance, noise and sleeping in an uncomfortable bed (The Sleep Council, 2017). However, what is not known by the general public is the indirect effect smartphones can have on sleep quality (Demirci et al., 2015). 
 
@@ -17,7 +17,7 @@ On average, people are spending an average of 18 hours a week using smartphones 
 
 These physiological and psychological effects are most prominent for individuals who use their smartphone during bedtimes, as the suppression of melatonin, combined with the additional mental stimulation can result in longer times to fall asleep and worse sleep quality during the night (Figueiro and Overington, 2016). Therefore, interventions should be taken to increase awareness of the detrimental effect smartphones can have on sleep and consequently overall health. Through information and motion graphic design, this research is aiming to create an interactive motion graphic that highlights the effects discussed, as well as provide advice for changes in daily behaviour, in hope to leave a lasting impression on viewers and consequently aid improved sleep quality.
 
-##### Problem
+###### Problem
 
 When creating a motion graphic, the audience’s time should never be taken for granted. A study conducted by Microsoft in 2015 confirmed that the average human attention span is 8 seconds when using mobile applications or watching videos (Microsoft, 2015). Therefore, it is important that the developed motion graphic is consistently engaging and translates the necessary information in the minimum amount of time possible (Fichtel et al., 2012).
 
@@ -25,7 +25,7 @@ Furthermore, smartphone usage is dependant on the demographic. For example, youn
 
 Lastly, the motion graphic aims to provide advice in changing individuals daily smartphone usage habits. This will include highlighting certain features available on smartphones that can be applied to filter out emitted blue light or restrict usage of certain apps after certain times (Ceres, 2018). However, these features will be dependant on the specific audience's smartphone type, whether it be Android or iPhone (Apple, 2018). Therefore the information provided from the motion graphic will need to be relevant to the specific audience’s smartphone type. Otherwise, attention will similarly be lost (Stone and Wahlin, 2018). 
 
-##### Need
+###### Need
 
 A good night's sleep is just as important as regular exercise and a healthy diet, as it boosts immunity, mental wellbeing, can prevent diabetes, heart disease and increases fertility (The Sleep Council, 2018). Therefore, an engaging campaign that promotes better sleep is critical. However, as identified in the previous section, humans attention spans are limited and the information that needs to be communicated is dependant on the audience’s demographic and device type. Therefore, consideration with what the most appropriate medium will be for such a campaign is needed.
 
@@ -38,7 +38,7 @@ Interactive motion graphics allow audiences to directly engage with the video. T
 
 <p align="center">Figure 1: System Flow Diagram for the proposed interactive motion graphic</p>
 
-##### Research conducted
+###### Research conducted
 
 From the author’s research, an interactive motion graphic that highlights and advises on the effect smartphone usage has on sleep, is not yet known to previously exist in the world. However, the phenomenon of the smartphone’s effect on sleep is not new knowledge, as it is recognised by health organisations such as the NHS (NHS UK, 2018). Nevertheless, the way the NHS and other organisations communicate the phenomenon and provide advice is primarily via textual means or through slightly improved static visual infographics. Therefore, the remainder of this section will be evaluating some previous textual and infographic examples that highlight and advise on the effects smartphones have on sleep. After which, good design practices that can be adapted into a motion graphic medium will be identified from the examples.
 
@@ -58,62 +58,62 @@ When providing information to an audience, the content should be provided as bri
 
 In today's world, the competition to get the audience’s attention with provocative and eye-catching visuals is extremely competitive. Consequently, static infographics are less likely to be visually stimulating enough to catch the eye of any internet user on their own (Barnes, 2016). Nowadays, a lot of the content found on the internet try to emulate the interactive experience provided by video games, with immersive experiences, interactivity and personalised storytelling (Crook and Beare, 2017). Species in Pieces, as shown in figure 3, is an animated and interactive information piece. It immediately grabs the attention of the audience with stunning motion graphics and vivid colours (Rendgen et al., 2012). Once more, the interactivity allows the audience to directly dictate the pace of the motion graphic by using the arrows on the right side of the display, further preventing the audience to lose attention (Stone and Wahlin, 2018). Further good design features of this piece that should be adopted into the specialist project are the use of only flat colours with lots of white space. This minimalist approach reduces clutter and makes it easier to navigate around, so the viewer is able to focus on each section at a time, without being distracted (White, 2011).
 
-#### The project aims and perceived need
+##### The project aims and perceived need
 
 The aim of this project is to develop an interactive motion graphic, aimed at highlighting the issues and consequences that prolonged smartphone usage has on sleep and to provide advice for changes in individual’s mobile usage daily behaviour. A well-designed interactive motion graphic that is quick, engaging and easily shareable could leave a lasting impression on audiences and consequently lead to positive behavioural changes and better sleep quality for many people as a result.
 
-#### Objectives
+##### Objectives
 
-##### Objective 1
+###### Objective 1
 
 Evaluate existing information sources and relevant research available about the effect of smartphone usage has on sleep. Related objectives are to:
 - 1.1. Produce a literature review on the primary specialist project subject areas, which include but are not limited to: user experience design, the effect of light and colour on sleep and motion graphic design. This will also entail researching appropriate research methods and relevant design principles, such as graphic design, typography and digital design.
 - 1.2. As an interactive motion graphic that highlights and advises on the effect smartphone usage has on sleep is not yet known to previously exist, evaluate the design principles of existing static infographics about sleep hygiene, as well as relevant existing interactive motion graphics that are based on other topics.
 - 1.3. Perform a series of usability tests and refinements, to identify the best content and design solutions that will maximise comprehension and engagement of information and advice for smartphone users.
 
-##### Objective 2
+###### Objective 2
 Design an interactive motion graphic with voiceover to make well-sourced information and advice about smartphone usage and sleep more stimulating, engaging and accessible to audiences from a range of demographics and whose first language may not be English. Related objectives are to:
 - 2.1. Write a storyboard for the interactive motion graphic and test suitability with potential audiences and iterate until a suitable design solution is reached.
 - 2.2. Develop, refine and finalise an interactive motion graphic with and voiceover.
 
-##### Objective 3
+###### Objective 3
 Verify the success of the interactive motion graphic through usability testing and Likert scale online questionnaire, in order to establish whether audiences find it engaging and whether it is successful in improving comprehension from sole text or static infographic alternatives. Related objectives are:
 - 3.1. Conduct usability testing.
 - 3.2. Construct and share an online questionnaire form.
 - 3.3. Analyse test findings.
 - 3.4. Refine prototype design from test findings.
 
-##### Objective 4
+###### Objective 4
 To contribute to knowledge, research and practice in the field of interactive motion graphic design, which is under-researched when compared to other information design fields, such as infographics. Related objectives are:
 - 4.1. Collect a set of guidelines for the design of informative interactive motion graphics, that will assist teachers, designers and researchers.
 - 4.2. Define theories on the impact of interactive motion graphics within the sleep hygiene arena.
 - 4.3. Write the research findings in an internationally peer-reviewed design journal.
 
-#### Methodology
-##### Information Collection
-###### Literature Review
+##### Methodology
+###### Information Collection
+**Literature Review**	  
 In order to gain a better understanding of the design principles used in other information sources that focus on the effect smartphones have on sleep, a literature review will need to be conducted, in order to determine what design principles and features would be most appropriate for implementation into an interactive motion graphic. A literature review is an example of secondary research and is critical to human centred design (Martin and Hanington, 2012). It should be conducted early on into the project, as it will help establish what research has already been done, what should be repeated and identify what gaps in research that could be approached by this project (Martin and Hanington, 2012). 
 
-###### Survey
+**Survey**	  
 A survey of existing textual and static infographic information sources on the effects of smartphones on sleep will be carried out. As there are no existing interactive motion graphics pieces on the effects of smartphones on sleep, in order to determine what design features and functions of interactive motion graphics are most preferred by professionals and designers, survey of other relevant interactive motion graphics pieces, such as Species in Pieces as seen in Figure 4 will also be evaluated. The survey would present visual examples of these existing infographic examples and then participants would be asked their preference of design features and layout for such a proposed motion graphic. Surveys are a primary research method for gathering quantitative data fast, without requiring the researcher to be present (Muratovski, 2015). This is a practical benefit for this project as participants may be in various locations across the country.
 
-##### Analysis and Development
-###### SWOT Analysis
+###### Analysis and Development
+**SWOT Analysis**	  
 A SWOT analysis, which stands for strength, weakness, opportunities and threat is one of the most regularly used project planning methods, along with PEST analysis, which stands for political, economic, social and technological (Panagiotou, 2003). Using this approach may help discover issues early on, consequently helping to avoid failure at an early stage and to develop upon the production of the motion graphics’ effectiveness.
 
-###### Storyboarding
+**Storyboarding**	  
 As animation of motion graphics is time-consuming, storyboarding is a fundamental method to plan out the design output and to test the concepts appropriateness (Simon, 2015). Storyboarding also allows for various design choices to be considered at an early stage of the prototype and development process, such as conceptualising the content, graphics and animation (Martin and Hanington, 2012).
 
-##### Evaluation
-###### Likert Scale Online Questionnaire
+###### Evaluation
+**Likert Scale Online Questionnaire**	  
 To validate the success of the developed prototype, a Likert scale questionnaire will be used to compare the engagement, comprehension and usefulness of the project outputs with existing textual and static infographic alternatives. Sixty-nine per cent of the population worldwide already own a mobile phone (GSMA Intelligence, 2019). Therefore, as the audience or the questionnaire does not need to be region specific. However, as identified in the contextual background, usage of mobile phones is age and gender specific (van Deursen et al., 2015). Therefore, the chosen participants for the online questionnaire will be 18-70 years old mobile phone users, as well as designers or people from the motion graphic and infographic design industry. An advantage of using a Likert scale questionnaire is that they are the most universal method for survey collection and responses can be quickly quantified, efficiently and inexpensively (Martin and Hanington, 2012). Additionally, a Likert scale questionnaire allows participants to respond to a degree of agreement, such as using a 1-10 scale. Therefore, question answering is consequently easier on the respondent and helps prevent bias from leading questions (Laurel, 2003). In terms of distribution, questionnaires have high versatility and can be sent via social media or given in person. For this project, an online platform such as Google Forms will be used for the online questionnaire because of their ease of collecting and analysing quantitative data (Martin and Hanington, 2012).
 
-###### Usability Testing
+**Usability Testing**	  
 The usability testing will be implemented on the final design to validate the effectiveness of the outcome. It will consist of at least 5 users to evaluate the learnability, efficiency, memorability, errors and satisfaction of the design in person. The qualitative results will then be used to evaluate the design principles used and outline any possible improvements for future development (Nielson, 2012).
 
-#### Feasibility
-##### Skills
-###### Skills I Have
+##### Feasibility
+###### Skills
+**Skills I Have**	
 - I am experienced in the necessary Adobe programmes that would be needed to create the elements involved in a motion graphic, such as Illustrator for creating graphics and Photoshop for image manipulation.
 - My digital skills also extend to software engineering, which will be required to enable the motion graphic to become interactive.
 - Capable of conceptualising an idea from a rough sketch into a finalised high-quality output. 
@@ -122,46 +122,46 @@ The usability testing will be implemented on the final design to validate the ef
 - I have strong research skills that can aid the review of literature and design principles, in order to help discover findings that may be advantageous to the research project. 
 - Capable of turning in-depth research and application of design principles into creative output. 
 
-###### Skills Required
+**Skills Required**	
 - I have limited experience with creating motion graphic design outputs and using Adobe After Effects. However, the skills could be obtained through self-directed study and asking specialists within the University’s Design faculty.
 - I have limited experience in planning and conducting face to face usability tests with real-life participants. However, the skills could be obtained self-directed study and asking specialists within the University’s Design faculty.
 - An improvement on my, planning, time management self-critical skills.
 
-##### Participants
-###### Participants/users 
+###### Participants
+**Participants/users**	  
 General smartphones users, male and female and aged above 18 years old will participate. Although many 18-year-olds and under own smartphones, specialist ethics approval is required to involve children in research. Therefore, due to the restricted timescale of this project, time will not be spent applying for specialist ethics approval for children. Participants will be involved in the research and design phases of the project including the questionnaires, surveys, user testing and evaluation at the end of the project. Participants will be recruited from social media and through word of mouth. 
 
-###### Experts
+**Experts**	  
 The project will be supervised by Professor Stephen Westland, whose expertise in research, colour science, colour imaging, colour design and lighting will ensure the research and design process is efficient and carried out to a high standard.
 
-###### Stakeholders
+**Stakeholders**  	  	
 Health organisations such as the NHS or online news organisations could benefit from the design outcome as it could be shared across their vast networks to spread awareness of the issue at hand. Additionally, the University of Leeds who will benefit from the research being conducted.
 
-##### Risks
-###### SWOT Analysis
+###### Risks
+**SWOT Analysis**	
 <img src="{{ site.baseurl }}/images/2019/01/projectproposal/swotanalysis.png" alt="swot analysis" style="width: 800%;"/>
 
-###### Time Risks
+**Time Risks**	
 - Personal and participant work responsibilities pose a time risk to the project. Nevertheless, this can be alleviated through effective communication with participants and using a Gantt to manage time.
 - Extraneous variables from usability testing could also affect the timeline, such as faulty equipment. This risk could be mitigated by providing more time to manage additional research and examine data.
 - Considering the lack of experience in motion graphic design, it is difficult to estimate a timeline for constructing the storyboard and developing the visual output. This could result in the project to take longer than anticipated. Providing a comfortable time buffer would help to mitigate this risk.
 
-###### Process Risks
+**Process Risks**	
 - Location of participants and experts and the risk of anybody falling ill poses a risk to the project. This can be mitigated by carrying out research that doesn't involve travel, such as surveys. Or conducting research that does require travel, such as usability testing, early on in the project. 
 - Producing high-quality motion graphics are time-consuming. To mitigate the risk of time being wasted during the development, storyboarding and surveying will be carried out to make sure a prototype is suitable to continue with development. Also, further research on motion graphic design and discussions with relevant experts will help mitigate this risk.
 
-###### Participant Risks
+**Participant Risks**	  	
 - Being prepared for participants who may have relevant medical conditions that need to be taken into consideration, such as poor vision.
 - As we may be dealing with participants with sleeping conditions such as insomnia, participant distress and discomfort are an ethical risk to consider.  To tackle this risk, participants and the subject matter must be approached in a professional, empathetic and understanding manner. 
 
-#### Design outcomes
+##### Design outcomes
 The final design outcome will be a well-designed interactive motion graphic which highlights the consequences that prolonged smartphone usage has on sleep quality in an infographic animation form. It will also provide advice for changes in daily behaviour to improve sleep quality, such as highlighting available smartphone features that filter out blue light or restrict usage after a certain time. The final design should be informative, attention-grabbing and memorable. An interactive motion graphic has been chosen to be the output of this project as they can are quick to consume and visually appealing to audiences (Barnes, 2016). Furthermore, the nature of interactive motion graphics means they can be distributed and shared easily. Therefore, if successful, there is the potential for this interactive motion graphic to be shared widely, allowing awareness to be spread to many smartphone users globally.
 
-#### Gantt Chart
+##### Gantt Chart
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSKq72T77adeC5hjJkR_GmRVHRiwjGipPyc4KjKJFh9ZwwKNeXsCl10jwVpjHef75hbfOhBMLIj-gKr/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="600"></iframe>
 
-#### References	
+##### References	
 
 Apple 2018. Use Night Shift on your iPhone, iPad, and iPod touch. *Apple Support*. [Online]. [Accessed 4 December 2018]. Available from: https://support.apple.com/en-gb/HT207570.
 

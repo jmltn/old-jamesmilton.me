@@ -1,0 +1,126 @@
+---
+layout: default
+permalink: /telegraph-portfolio/
+title: Telegraph Portfolio
+description: Here is some of my work - including code, videography, design and all things miscellaneous.
+---
+
+<h5 style="color:#00c266">Telegraph Portfolio Masterclass</h5>
+</br>
+
+<div class="cards" data-masonry='{ "itemSelector": ".card", "columnWidth": 300}'>
+	{% for post in site.categories.telegraph-portfolio %}
+		<a href="{{ site.baseurl }}{{ post.url }}">
+		<div class="card {{ post.filter }}">
+			<img class="lazy" src="{{ site.baseurl }}/images/misc/Preloader_5.gif" data-original="{{ site.baseurl }}{{ post.image }}"/>
+			<h6 class="postTitle" >{{ post.title }}</h6>
+		</div>
+		</a>
+	{% endfor %}
+
+</div>
+
+
+
+
+
+
+
+
+<script>
+
+// quick search regex
+var qsRegex;
+var buttonFilter;
+
+
+
+// init Isotope
+var $grid = $('.cards').isotope({
+  itemSelector: '.card',
+  filter: function() {
+    var $this = $(this);
+    var searchResult = qsRegex ? $this.text().match( qsRegex ) : true;
+    var buttonResult = buttonFilter ? $this.is( buttonFilter ) : true;
+    return searchResult && buttonResult;
+  }
+});
+
+$('#filters').on( 'click', 'button', function() {
+  buttonFilter = $( this ).attr('data-filter');
+  $grid.isotope();
+});
+
+
+// use value of search field to filter
+var $quicksearch = $('#quicksearch').keyup( debounce( function() {
+  qsRegex = new RegExp( $quicksearch.val(), 'gi' );
+  $grid.isotope();
+}) );
+
+
+  // change is-checked class on buttons
+$('.button-group').each( function( i, buttonGroup ) {
+  var $buttonGroup = $( buttonGroup );
+  $buttonGroup.on( 'click', 'button', function() {
+    $buttonGroup.find('.is-checked').removeClass('is-checked');
+    $( this ).addClass('is-checked');
+  });
+});
+
+
+
+
+// debounce so filtering doesn't happen every millisecond
+function debounce( fn, threshold ) {
+  var timeout;
+  return function debounced() {
+    if ( timeout ) {
+      clearTimeout( timeout );
+    }
+    function delayed() {
+      fn();
+      timeout = null;
+    }
+    setTimeout( delayed, threshold || 100 );
+  };
+}
+
+
+
+
+
+$( document ).ready(function() {
+
+
+
+
+	var $container = $('.cards');
+	// initialize Masonry after all images have loaded
+	$container.imagesLoaded( function() {
+	     $container.masonry();
+	});
+
+
+	$("img.lazy").lazyload({
+	    effect: 'fadeIn',
+	    effectspeed: 1000,
+	    threshold: 200
+	});
+
+	$('img.lazy').load(function() {
+	    masonry_update();
+	});
+
+	function masonry_update() {
+	    $container.imagesLoaded(function(){
+	        $container.masonry({
+	            itemSelector: '.card',　
+	            isFitWidth: false,　
+	            columnWidth: 300
+	        });
+	    });
+	}
+});
+
+</script>
