@@ -45,6 +45,8 @@
     <h6>
       {% if page.categories contains "specialistproject" %}
         <a href="{{ site.baseurl }}/">Home</a> / <a href="{{ site.baseurl }}/{{ page.categories | last }}">Specialist Project</a>
+      {% elsif page.categories contains "telegraphportfolio" %}
+        <a href="{{ site.baseurl }}/">Home</a> / <a href="{{ site.baseurl }}/{{ page.categories | last }}">Telegraph Portfolio Masterclass</a>
       {% else %}
         <a href="{{ site.baseurl }}/">Home</a> / <a href="{{ site.baseurl }}/{{ page.categories | last }}">{{ page.categories | last | capitalize}}</a>
       {% endif %}

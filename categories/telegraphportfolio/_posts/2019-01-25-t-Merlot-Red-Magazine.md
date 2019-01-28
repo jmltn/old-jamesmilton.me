@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Merlot Red Magazine
+title: 🍷 Merlot Red Magazine Design
 image: /images/2018/11/magazine/magazine-all-min.png
 filter: fMiscellaneous fDesign
 ---
