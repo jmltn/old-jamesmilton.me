@@ -736,7 +736,7 @@ animation:smile 0.5s infinite;
 
 
 .secondColumn p img, .postContent img{
-	max-width: 70%;
+	max-width: 100%;
 	margin-left: auto;
     margin-right: auto;
     text-align: center;
