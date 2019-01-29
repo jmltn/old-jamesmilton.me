@@ -2,7 +2,6 @@
 layout: post
 title: 🍓 RaspberryRev RC Car - Design
 image: /images/2016/12/raspberry-rev/plate.png
-filter: fMiscellaneous fDesign
 ---
 
 For my A-Level (aged 18) Product Design assignment, I wanted to make a iPhone controlled remote controlled car which could be built with Lego. As a part of this project, I made a logo with Adobe Photoshop for both the branding of the product as well as iPhone icon that went with it.

@@ -2,7 +2,6 @@
 layout: post
 title: ✂️ rjbarbers.co.uk
 image: /images/2018/10/rjbarbers_logo.png
-filter: fMiscellaneous
 ---
 
 Quick landing page I designed and developed for my local barbershop. [Visit the site](http://rjbarbers.co.uk/thrapstonbarbershop/){:target="_blank"}.

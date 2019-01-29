@@ -2,7 +2,6 @@
 layout: post
 title: 🍷 Merlot Red Magazine Design
 image: /images/2018/11/magazine/magazine-all-min.png
-filter: fMiscellaneous fDesign
 ---
 
 This project was about creating a magazine theme using one colour and representing its meaning through the overall design.

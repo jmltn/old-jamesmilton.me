@@ -2,12 +2,20 @@
 layout: post
 title: 📶 Sky Home Mesh - App Design Concept
 image: /images/2018/12/skymeshthumbnail.png
-filter: fVideo fDesign
 ---
 
-My response Sky broadband's 'Sky Home Mesh' app brief:	 
+My response Sky broadband's 'Sky Home Mesh' app brief:	   
 We were given a brief by Leeds Sky UK for a new app for their Sky Broadband customers. The app should provide customers with a clear visual representation of their home setup (mesh) and aid understanding of the relationship between speed to the hub and speed to their connected devices, usage and signal strength.   	  
 	    
+
+<img src="{{ site.baseurl }}/images/2018/12/pdfexport/1.jpg" alt="sky mesh app concept drawings james milton" width="100%">  
+<img src="{{ site.baseurl }}/images/2018/12/pdfexport/2.jpg" alt="sky mesh app concept drawings james milton" width="100%">  
+<img src="{{ site.baseurl }}/images/2018/12/pdfexport/3.jpg" alt="sky mesh app concept drawings james milton" width="100%">  
+<img src="{{ site.baseurl }}/images/2018/12/pdfexport/4.jpg" alt="sky mesh app concept drawings james milton" width="100%">  
+<img src="{{ site.baseurl }}/images/2018/12/pdfexport/5.jpg" alt="sky mesh app concept drawings james milton" width="100%">  
+<img src="{{ site.baseurl }}/images/2018/12/pdfexport/6.jpg" alt="sky mesh app concept drawings james milton" width="100%">  
+<img src="{{ site.baseurl }}/images/2018/12/pdfexport/7.jpg" alt="sky mesh app concept drawings james milton" width="100%">  
+<img src="{{ site.baseurl }}/images/2018/12/pdfexport/8.jpg" alt="sky mesh app concept drawings james milton" width="100%">  
 	  
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/6Ems5isTrTw' frameborder='0' allowfullscreen></iframe></div>	 	
 	  	
