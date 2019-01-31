@@ -27,8 +27,8 @@ The following pages are the end results produced for the Merlot Red magazine. Ea
 
 The designed magazine is intended to be published monthly, providing readers with a variety of information surrounding wine, including global destinations, food and author reviews.
 
+<img src="{{ site.baseurl }}/images/2018/11/magazine/render/realfront2-min.png" alt="merlot red magazine 5 james milton" >  
 <img src="{{ site.baseurl }}/images/2018/11/magazine/render/realfront1-min.png" alt="merlot red magazine 5 james milton" >
-<img src="{{ site.baseurl }}/images/2018/11/magazine/render/realfront2-min.png" alt="merlot red magazine 5 james milton" >
 <img src="{{ site.baseurl }}/images/2018/11/magazine/render/realcontents-min.png" alt="merlot red magazine 5 james milton" >
 <img src="{{ site.baseurl }}/images/2018/11/magazine/render/realspread1-min.png" alt="merlot red magazine 5 james milton" >
 <img src="{{ site.baseurl }}/images/2018/11/magazine/render/realspread2-min.png" alt="merlot red magazine 5 james milton" >  
