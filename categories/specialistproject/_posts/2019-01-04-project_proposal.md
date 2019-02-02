@@ -139,7 +139,7 @@ Health organisations such as the NHS or online news organisations could benefit 
 
 ###### Risks
 **SWOT Analysis**	
-<img src="{{ site.baseurl }}/images/2019/01/projectproposal/swotanalysis.png" alt="swot analysis" style="width: 800%;"/>
+<img src="{{ site.baseurl }}/images/2019/01/projectproposal/swotanalysis.png" alt="swot analysis" style="width: 60%;"/>
 
 **Time Risks**	
 - Personal and participant work responsibilities pose a time risk to the project. Nevertheless, this can be alleviated through effective communication with participants and using a Gantt to manage time.
