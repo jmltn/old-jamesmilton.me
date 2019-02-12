@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Another Interactive Video Demonstration
-published: false
 
 ---
 The following interactive video demonstration was made with the platform [Eko](https://helloeko.com/){:target="_blank"}, which will be used for the final design outcome. The individual motion graphic videos were made in Adobe After Effects.
