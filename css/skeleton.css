@@ -304,9 +304,28 @@ label > .label-body {
   font-weight: normal; }
 
 
-/* Lists
+/* Device
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+.marvel-device{
+    margin: 0 25% 0;
+  } 
+
+@media (max-width: 1000px) {
+  .marvel-device{
+    margin: 0 10% 0;
+    zoom: 0.7; 
+    -moz-transform: scale(0.7);
+  }  
+}
+
+@media (max-width: 600px) {
+  .marvel-device{
+    margin: 0 10% 0;
+    zoom: 0.6; 
+    -moz-transform: scale(0.5);
+  }  
+}
 
 
 /* Code
