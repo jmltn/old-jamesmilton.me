@@ -5,7 +5,7 @@ title: What happens when we sleep?
 ---
 Below is the part 2/3 of the final outcome. Parts 1 and 3 will be made during the summer period.
 
-The parts are categories like so:
+The parts are categorised like so:
 
 Part 1: What are the stages of sleep? (Explanation of REM and NREM) \[TBC Summer\]
 
