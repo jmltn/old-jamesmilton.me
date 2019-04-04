@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Project Proposal
----
 
+---
 ###### Title: Using information design principles to improve sleep. An interactive motion graphic that informs and advises on the physiological and psychological effects that smartphones can have on sleep quality.   
 **Author: James Milton**    
 ***Supervisor:* Professor Stephen Westland**    
