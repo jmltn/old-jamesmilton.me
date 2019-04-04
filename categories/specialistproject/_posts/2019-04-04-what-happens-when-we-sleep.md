@@ -1,7 +1,6 @@
 ---
 layout: post
 title: What happens when we sleep?
-published: false
 
 ---
 Below is the part 2/3 of the final outcome. Parts 1 and 3 will be made during the summer period. 
