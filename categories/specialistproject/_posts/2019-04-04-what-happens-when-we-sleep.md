@@ -1,7 +1,17 @@
 ---
 layout: post
-title: Please spare 10 minutes to complete this survey
+title: What happens when we sleep?
 published: false
 
 ---
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf5KZiFslSBZV6qdaUWuKUlrtq3PXb91Ex5_I5gqqYs13op-Q/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+Below is the part 2/3 of the final outcome. Parts 1 and 3 will be made during the summer period. 
+
+The parts are categories like so:
+
+Part 1: What are the stages of sleep? (Explanation of REM and NREM) \[TBC Summer\]
+
+Part 2: What do the stages do when you're asleep? (Video below) \[TBC Summer\]
+
+Part 3: What happens when you cut sleep? \[TBC Summer\]
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src="https://drive.google.com/file/d/1c5AZRUbdG3p9DKbsoMRTbYVjGdVGVGuP/preview" frameborder='0' allowfullscreen></iframe></div>
