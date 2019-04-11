@@ -45,8 +45,6 @@
     <h6>
       {% if page.categories contains "specialistproject" %}
         <a href="{{ site.baseurl }}/">Home</a> / <a href="{{ site.baseurl }}/{{ page.categories | last }}">Specialist Project</a>
-      {% elsif page.categories contains "telegraphportfolio" %}
-        <a href="{{ site.baseurl }}/">Home</a> / <a href="{{ site.baseurl }}/{{ page.categories | last }}">Telegraph Portfolio Masterclass</a>
       {% else %}
         <a href="{{ site.baseurl }}/">Home</a> / <a href="{{ site.baseurl }}/{{ page.categories | last }}">{{ page.categories | last | capitalize}}</a>
       {% endif %}
@@ -76,32 +74,55 @@
               {% endif %}
           {% endfor %}
           {% if next_post %}
-              <a href="{{ next_post.url }}">Next Post <strong>&laquo;</strong> {{next_post.title}}</a>
+              <a href="{{ next_post.url }}">Next Post 👈</a>
           {% endif %}
           {% if prev_post %}
-              <a class="next" href="{{ prev_post.url }}">Previous Post <strong>&raquo;</strong> {{ prev_post.title }} </a>
+              <a class="next" href="{{ prev_post.url }}">Previous Post 👉</a>
           {% endif %}
 		
 		
-	  {% for post in site.categories.portfolio %}
+      	  {% for post in site.categories.portfolio %}
+                    {% if post.url == page.url %}
+                        {% assign post_index0a = forloop.index0 %}
+                        {% assign post_index1a = forloop.index %}
+                    {% endif %}
+                {% endfor %}
+                {% for post in site.categories.portfolio %}
+                    {% if post_index0a == forloop.index %}
+                        {% assign next_posta = post %}
+                    {% endif %}
+                    {% if post_index1a == forloop.index0 %}
+                        {% assign prev_posta = post %}
+                    {% endif %}
+                {% endfor %}
+                {% if next_posta %}
+                    <a href="{{ next_posta.url }}">Next Post 👈</a>
+                {% endif %}
+                {% if prev_posta %}
+                    <a class="next" href="{{ prev_posta.url }}">Previous Post 👉</a>
+                {% endif %}
+
+
+
+          {% for post in site.categories.specialistproject %}
               {% if post.url == page.url %}
-                  {% assign post_index0a = forloop.index0 %}
-                  {% assign post_index1a = forloop.index %}
+                  {% assign post_index0b = forloop.index0 %}
+                  {% assign post_index1b = forloop.index %}
               {% endif %}
           {% endfor %}
-          {% for post in site.categories.portfolio %}
-              {% if post_index0a == forloop.index %}
-                  {% assign next_posta = post %}
+          {% for post in site.categories.specialistproject %}
+              {% if post_index0b == forloop.index %}
+                  {% assign next_postb = post %}
               {% endif %}
-              {% if post_index1a == forloop.index0 %}
-                  {% assign prev_posta = post %}
+              {% if post_index1b == forloop.index0 %}
+                  {% assign prev_postb = post %}
               {% endif %}
           {% endfor %}
-          {% if next_posta %}
-              <a href="{{ next_posta.url }}">Next Post <strong>&laquo;</strong> {{next_posta.title}}</a>
+          {% if next_postb %}
+              <a href="{{ next_postb.url }}">Next Post 👈</a>
           {% endif %}
-          {% if prev_posta %}
-              <a class="next" href="{{ prev_posta.url }}">Previous Post <strong>&raquo;</strong> {{ prev_posta.title }} </a>
+          {% if prev_postb %}
+              <a class="next" href="{{ prev_postb.url }}">Previous Post 👉</a>
           {% endif %}
 		
 		
