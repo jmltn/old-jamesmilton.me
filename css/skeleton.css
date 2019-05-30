@@ -327,6 +327,29 @@ label > .label-body {
   }  
 }
 
+/*––––––––––––– */
+
+.macbook{
+    zoom: 0.9; 
+    margin: 0 50% 0;
+  } 
+
+@media (max-width: 1000px) {
+  .macbook{
+    margin: 0 10% 0;
+    zoom: 0.7; 
+    -moz-transform: scale(0.7);
+  }  
+}
+
+@media (max-width: 375px) {
+  .macbook{
+    margin: 0 10% 0;
+    zoom: 0.3; 
+    -moz-transform: scale(0.5);
+  }  
+}
+
 
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
