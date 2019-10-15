@@ -23,6 +23,8 @@ For more information on this project, the following links are to a video demonst
 
 <img src="{{ site.baseurl }}/images/2019/10/CIBSE AWARDS_4.jpg" alt="CIBSE Technical Symposium 2019" style="width: 100%;"/>
 
+<img src="{{ site.baseurl }}/images/2019/10/playing-to-win-spread.jpg" alt="CIBSE Technical Symposium 2019" style="width: 100%;"/>
+
 https://www.youtube.com/watch?v=xQKAFD06nfw&feature=youtu.be
 
 https://www.researchgate.net/publication/331651264_Visually_Displaying_Past_and_Present_Smart_Building_Data_Through_Virtual_Reality
