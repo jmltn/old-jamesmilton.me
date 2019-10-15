@@ -9,9 +9,7 @@ Between the 25th and 26th April 2019, The CIBSE Technical Symposium 2019 was hos
 
 While studying Computer Science at the University of Sheffield, I investigated a solution to improving understanding of smart building data as part of my final year dissertation project, which was supervised by Dr Ramsay Taylor. By marrying a computer games engine with a BIM model, I was able to create a 3D visualisation of the environmental performance of Sheffield University’s complex Diamond building.
 
-My dissertation paper was submitted to The CIBSE Technical Symposium 2019 and I was invited to present at the symposium. My presentation and paper explaining how it was done was named the ‘Most Significant Contribution to the Art and Science of Building Services’ at the 2019 CIBSE Technical Symposium.
-
-For more information on this project, the following links are to a video demonstration of my system, as well as the submitted paper.
+My dissertation paper was submitted to The CIBSE Technical Symposium 2019 and I was invited to present at the symposium. My presentation and paper explaining how it was done was named the ‘Most Significant Contribution to the Art and Science of Building Services’ at the 2019 CIBSE Technical Symposium. Additionally, a magazine spread was written about my project in the CIBSE journal.
 
 <img src="{{ site.baseurl }}/images/2019/10/Urban Flows Observatory_54.jpg" alt="CIBSE Technical Symposium 2019" style="width: 100%;"/>
 
@@ -23,6 +21,4 @@ For more information on this project, the following links are to a video demonst
 
 <img src="{{ site.baseurl }}/images/2019/10/CIBSE AWARDS_4.jpg" alt="CIBSE Technical Symposium 2019" style="width: 100%;"/>
 
-[Youtube](https://www.youtube.com/watch?v=xQKAFD06nfw&feature=youtu.be){:target="_blank"}.
-
-[ResearchGate](https://www.researchgate.net/publication/331651264_Visually_Displaying_Past_and_Present_Smart_Building_Data_Through_Virtual_Reality){:target="_blank"}.
+For more information on this project, the following links are to a [video demon stration](https://www.youtube.com/watch?v=xQKAFD06nfw&feature=youtu.be){:target="_blank"} of my system, as well as the [submitted paper](https://www.researchgate.net/publication/331651264_Visually_Displaying_Past_and_Present_Smart_Building_Data_Through_Virtual_Reality){:target="_blank"}.
