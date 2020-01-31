@@ -23,4 +23,6 @@ My dissertation paper was submitted to The CIBSE Technical Symposium 2019 and I 
 
 <img src="{{ site.baseurl }}/images/2019/10/playing-to-win-spread.jpg" alt="CIBSE Technical Symposium 2019" style="width: 100%;"/>
 
+<iframe src="https://drive.google.com/file/d/17Txf8loNDrvLOboYrNfnUHdQVQ5cPO9s/preview" width="100%" height="700"></iframe>
+
 For more information on this project, the following links are to a [video demon stration](https://www.youtube.com/watch?v=xQKAFD06nfw&feature=youtu.be){:target="_blank"} of my system, as well as the [submitted paper](https://www.researchgate.net/publication/331651264_Visually_Displaying_Past_and_Present_Smart_Building_Data_Through_Virtual_Reality){:target="_blank"}.
